@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_User
 {
-    partial class CasesForm
+    partial class AllCases_User
     {
         /// <summary>
         /// Required designer variable.

@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class Form1 : Form
+    public partial class MainForm_User : Form
     {
-        public Form1()
+        public MainForm_User()
         {
             InitializeComponent();
         }
 
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
-            SubmitForm f = new SubmitForm();
+            SubmitReport_User f = new SubmitReport_User();
             f.Show();
         }
 
         private void CaseBtn_Click(object sender, EventArgs e)
         {
-            CasesForm f = new CasesForm();
+            AllCases_User f = new AllCases_User();
             f.Show();
         }
     }

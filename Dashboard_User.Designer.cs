@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_User
 {
-    partial class Dashboard
+    partial class Dashboard_User
     {
         /// <summary>
         /// Required designer variable.

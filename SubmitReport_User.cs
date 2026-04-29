@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class Dashboard : Form
+    public partial class SubmitReport_User : Form
     {
-        public Dashboard()
+        public SubmitReport_User()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Submitted!");
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
