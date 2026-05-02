@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SubmitReport_User));
             this.grbLogo_User = new System.Windows.Forms.GroupBox();
-            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_User = new System.Windows.Forms.Label();
             this.lblCyberTrack_User = new System.Windows.Forms.Label();
             this.grbPermissions_User = new System.Windows.Forms.GroupBox();
@@ -42,7 +41,6 @@
             this.lblCreate_User = new System.Windows.Forms.Label();
             this.lblPermissions_User = new System.Windows.Forms.Label();
             this.grbUserLogo_User = new System.Windows.Forms.GroupBox();
-            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
             this.groupBox6_Analyst = new System.Windows.Forms.GroupBox();
@@ -69,7 +67,6 @@
             this.lblSubmitReportIncidentTitle_Analyst = new System.Windows.Forms.Label();
             this.lblSubmitReportProvideInfo_Analyst = new System.Windows.Forms.Label();
             this.lblSubmitReportIncidentDetails_Analyst = new System.Windows.Forms.Label();
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst = new System.Windows.Forms.PictureBox();
             this.lblSubmitReportSubmitIncidentReport_Analyst = new System.Windows.Forms.Label();
             this.groupBox4_Analyst = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -80,16 +77,19 @@
             this.lblSubmitReportActQuickly_Analyst = new System.Windows.Forms.Label();
             this.lblSubmitReportReportGuide_Analyst = new System.Windows.Forms.Label();
             this.lblSubmitReportReportIncident_Analyst = new System.Windows.Forms.Label();
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst = new System.Windows.Forms.PictureBox();
+            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
+            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.grbLogo_User.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
             this.grbPermissions_User.SuspendLayout();
             this.grbUserLogo_User.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
             this.groupBox6_Analyst.SuspendLayout();
             this.groupBox3_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).BeginInit();
             this.groupBox4_Analyst.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
             this.SuspendLayout();
             // 
             // grbLogo_User
@@ -102,16 +102,6 @@
             this.grbLogo_User.Size = new System.Drawing.Size(754, 74);
             this.grbLogo_User.TabIndex = 93;
             this.grbLogo_User.TabStop = false;
-            // 
-            // picCyberTrackLogo_User
-            // 
-            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
-            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
-            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_User.TabIndex = 25;
-            this.picCyberTrackLogo_User.TabStop = false;
             // 
             // lblIncidentManagementSystem_User
             // 
@@ -228,18 +218,6 @@
             this.grbUserLogo_User.TabIndex = 92;
             this.grbUserLogo_User.TabStop = false;
             // 
-            // picUserPhoto_User
-            // 
-            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
-            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_User.ErrorImage = null;
-            this.picUserPhoto_User.InitialImage = null;
-            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_User.Name = "picUserPhoto_User";
-            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_User.TabIndex = 5;
-            this.picUserPhoto_User.TabStop = false;
-            // 
             // lblUserRole_User
             // 
             this.lblUserRole_User.AutoSize = true;
@@ -308,7 +286,6 @@
             this.txtSubmitReportImpactLevel_Analyst.Name = "txtSubmitReportImpactLevel_Analyst";
             this.txtSubmitReportImpactLevel_Analyst.Size = new System.Drawing.Size(736, 20);
             this.txtSubmitReportImpactLevel_Analyst.TabIndex = 34;
-            this.txtSubmitReportImpactLevel_Analyst.Text = " e.g., Organization-wide, Department-specific, Individual user";
             // 
             // lblSubmitReportListAll_Analyst
             // 
@@ -414,7 +391,6 @@
             this.txtSubmitReportAffectedSystems_Analyst.Name = "txtSubmitReportAffectedSystems_Analyst";
             this.txtSubmitReportAffectedSystems_Analyst.Size = new System.Drawing.Size(736, 20);
             this.txtSubmitReportAffectedSystems_Analyst.TabIndex = 22;
-            this.txtSubmitReportAffectedSystems_Analyst.Text = " e.g., Web Server, Database, Workstation ID";
             // 
             // cmbSubmitReportCategory_Analyst
             // 
@@ -520,18 +496,6 @@
             this.lblSubmitReportIncidentDetails_Analyst.TabIndex = 14;
             this.lblSubmitReportIncidentDetails_Analyst.Text = "INCIDENT DETAILS";
             // 
-            // picSubmitReportSubmitIncidentReportProfile_Analyst
-            // 
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage")));
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.ErrorImage = null;
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.InitialImage = null;
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Location = new System.Drawing.Point(214, 19);
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Name = "picSubmitReportSubmitIncidentReportProfile_Analyst";
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Size = new System.Drawing.Size(48, 42);
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabIndex = 30;
-            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabStop = false;
-            // 
             // lblSubmitReportSubmitIncidentReport_Analyst
             // 
             this.lblSubmitReportSubmitIncidentReport_Analyst.AutoSize = true;
@@ -636,6 +600,40 @@
             this.lblSubmitReportReportIncident_Analyst.TabIndex = 32;
             this.lblSubmitReportReportIncident_Analyst.Text = "Report a cybersecurity incident or security concern";
             // 
+            // picSubmitReportSubmitIncidentReportProfile_Analyst
+            // 
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage")));
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.ErrorImage = null;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.InitialImage = null;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Location = new System.Drawing.Point(214, 19);
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Name = "picSubmitReportSubmitIncidentReportProfile_Analyst";
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Size = new System.Drawing.Size(48, 42);
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabIndex = 30;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabStop = false;
+            // 
+            // picCyberTrackLogo_User
+            // 
+            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
+            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
+            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_User.TabIndex = 25;
+            this.picCyberTrackLogo_User.TabStop = false;
+            // 
+            // picUserPhoto_User
+            // 
+            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
+            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_User.ErrorImage = null;
+            this.picUserPhoto_User.InitialImage = null;
+            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_User.Name = "picUserPhoto_User";
+            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_User.TabIndex = 5;
+            this.picUserPhoto_User.TabStop = false;
+            // 
             // SubmitReport_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -651,21 +649,21 @@
             this.Text = "SubmitForm";
             this.grbLogo_User.ResumeLayout(false);
             this.grbLogo_User.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
             this.grbPermissions_User.ResumeLayout(false);
             this.grbPermissions_User.PerformLayout();
             this.grbUserLogo_User.ResumeLayout(false);
             this.grbUserLogo_User.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
             this.groupBox6_Analyst.ResumeLayout(false);
             this.groupBox6_Analyst.PerformLayout();
             this.groupBox3_Analyst.ResumeLayout(false);
             this.groupBox3_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).EndInit();
             this.groupBox4_Analyst.ResumeLayout(false);
             this.groupBox4_Analyst.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -72,6 +72,8 @@
             this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
+            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
+            this.lblUserProfileDesc_Administrator = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.APIgb_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.APIdataGridView3_ANALYST)).BeginInit();
@@ -91,6 +93,7 @@
             // 
             // PINFORMATIONgb_ANALYST
             // 
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblSecuritySettingsDesc_Administrator);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.APIgb_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.ACTIVESESHgb_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.TWOFACTORAUTHE_ANALYST);
@@ -101,7 +104,7 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.passREQgb_ANALYST);
             this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(429, 151);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 775);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(843, 775);
             this.PINFORMATIONgb_ANALYST.TabIndex = 57;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             // 
@@ -111,7 +114,7 @@
             this.APIgb_ANALYST.Controls.Add(this.APIlbl_ANALYST);
             this.APIgb_ANALYST.Location = new System.Drawing.Point(24, 596);
             this.APIgb_ANALYST.Name = "APIgb_ANALYST";
-            this.APIgb_ANALYST.Size = new System.Drawing.Size(784, 150);
+            this.APIgb_ANALYST.Size = new System.Drawing.Size(793, 150);
             this.APIgb_ANALYST.TabIndex = 58;
             this.APIgb_ANALYST.TabStop = false;
             // 
@@ -150,7 +153,7 @@
             this.ACTIVESESHgb_ANALYST.Controls.Add(this.ACTIVESESHlbl_ANALYST);
             this.ACTIVESESHgb_ANALYST.Location = new System.Drawing.Point(24, 431);
             this.ACTIVESESHgb_ANALYST.Name = "ACTIVESESHgb_ANALYST";
-            this.ACTIVESESHgb_ANALYST.Size = new System.Drawing.Size(784, 150);
+            this.ACTIVESESHgb_ANALYST.Size = new System.Drawing.Size(793, 150);
             this.ACTIVESESHgb_ANALYST.TabIndex = 57;
             this.ACTIVESESHgb_ANALYST.TabStop = false;
             // 
@@ -191,7 +194,7 @@
             this.TWOFACTORAUTHE_ANALYST.Controls.Add(this.TWOFACTORAUTHElbl_ANALYST);
             this.TWOFACTORAUTHE_ANALYST.Location = new System.Drawing.Point(24, 275);
             this.TWOFACTORAUTHE_ANALYST.Name = "TWOFACTORAUTHE_ANALYST";
-            this.TWOFACTORAUTHE_ANALYST.Size = new System.Drawing.Size(784, 150);
+            this.TWOFACTORAUTHE_ANALYST.Size = new System.Drawing.Size(793, 150);
             this.TWOFACTORAUTHE_ANALYST.TabIndex = 56;
             this.TWOFACTORAUTHE_ANALYST.TabStop = false;
             // 
@@ -279,7 +282,7 @@
             // 
             this.passREQgb_ANALYST.Location = new System.Drawing.Point(24, 80);
             this.passREQgb_ANALYST.Name = "passREQgb_ANALYST";
-            this.passREQgb_ANALYST.Size = new System.Drawing.Size(784, 141);
+            this.passREQgb_ANALYST.Size = new System.Drawing.Size(793, 141);
             this.passREQgb_ANALYST.TabIndex = 55;
             this.passREQgb_ANALYST.TabStop = false;
             // 
@@ -527,11 +530,30 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
+            // lblSecuritySettingsDesc_Administrator
+            // 
+            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
+            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(74, 61);
+            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
+            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(236, 13);
+            this.lblSecuritySettingsDesc_Administrator.TabIndex = 89;
+            this.lblSecuritySettingsDesc_Administrator.Text = "Manage your password and security preferences";
+            // 
+            // lblUserProfileDesc_Administrator
+            // 
+            this.lblUserProfileDesc_Administrator.AutoSize = true;
+            this.lblUserProfileDesc_Administrator.Location = new System.Drawing.Point(9, 125);
+            this.lblUserProfileDesc_Administrator.Name = "lblUserProfileDesc_Administrator";
+            this.lblUserProfileDesc_Administrator.Size = new System.Drawing.Size(245, 13);
+            this.lblUserProfileDesc_Administrator.TabIndex = 93;
+            this.lblUserProfileDesc_Administrator.Text = "Manage your account information and preferences";
+            // 
             // AdminProfileSecurity_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 941);
+            this.Controls.Add(this.lblUserProfileDesc_Administrator);
             this.Controls.Add(this.grbUserLogo_User);
             this.Controls.Add(this.PINFORMATIONgb_ANALYST);
             this.Controls.Add(this.USERPROFILElbl_ANALYST);
@@ -615,5 +637,7 @@
         private System.Windows.Forms.PictureBox picUserPhoto_User;
         private System.Windows.Forms.Label lblUserRole_User;
         private System.Windows.Forms.Label lblUserName_User;
+        private System.Windows.Forms.Label lblSecuritySettingsDesc_Administrator;
+        private System.Windows.Forms.Label lblUserProfileDesc_Administrator;
     }
 }

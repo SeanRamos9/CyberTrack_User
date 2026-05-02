@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesEvidence_User));
             this.groupBox7_Analyst = new System.Windows.Forms.GroupBox();
-            this.pictureBox1_Analyst = new System.Windows.Forms.PictureBox();
             this.IncidentManagementSystem_Analyst = new System.Windows.Forms.Label();
             this.CyberTrack_Analyst = new System.Windows.Forms.Label();
             this.groupBox1_Analyst = new System.Windows.Forms.GroupBox();
@@ -42,7 +41,6 @@
             this.Create_Analyst = new System.Windows.Forms.Label();
             this.Permissions_Analyst = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -54,7 +52,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.grbLogo_User = new System.Windows.Forms.GroupBox();
-            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_User = new System.Windows.Forms.Label();
             this.lblCyberTrack_User = new System.Windows.Forms.Label();
             this.grbPermissions_User = new System.Windows.Forms.GroupBox();
@@ -66,7 +63,6 @@
             this.lblCreate_User = new System.Windows.Forms.Label();
             this.lblPermissions_User = new System.Windows.Forms.Label();
             this.grbUserLogo_User = new System.Windows.Forms.GroupBox();
-            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
@@ -119,17 +115,17 @@
             this.txtAllCasesLastUpdated_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtAllCasesSLADeadline_Analyst = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblAllCasesCaseInformation_Analyst = new System.Windows.Forms.Label();
+            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
+            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1_Analyst = new System.Windows.Forms.PictureBox();
             this.groupBox7_Analyst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).BeginInit();
             this.groupBox1_Analyst.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.grbLogo_User.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
             this.grbPermissions_User.SuspendLayout();
             this.grbUserLogo_User.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
             this.SEWMA_ANALYST.SuspendLayout();
             this.groupBox3_ANALYST.SuspendLayout();
             this.grpSTATUSGB_ANALYST.SuspendLayout();
@@ -142,6 +138,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox4_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox7_Analyst
@@ -154,16 +154,6 @@
             this.groupBox7_Analyst.Size = new System.Drawing.Size(754, 74);
             this.groupBox7_Analyst.TabIndex = 77;
             this.groupBox7_Analyst.TabStop = false;
-            // 
-            // pictureBox1_Analyst
-            // 
-            this.pictureBox1_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1_Analyst.Image")));
-            this.pictureBox1_Analyst.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1_Analyst.Name = "pictureBox1_Analyst";
-            this.pictureBox1_Analyst.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox1_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1_Analyst.TabIndex = 25;
-            this.pictureBox1_Analyst.TabStop = false;
             // 
             // IncidentManagementSystem_Analyst
             // 
@@ -280,16 +270,6 @@
             this.groupBox1.TabIndex = 79;
             this.groupBox1.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -405,16 +385,6 @@
             this.grbLogo_User.TabIndex = 87;
             this.grbLogo_User.TabStop = false;
             // 
-            // picCyberTrackLogo_User
-            // 
-            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
-            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
-            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_User.TabIndex = 25;
-            this.picCyberTrackLogo_User.TabStop = false;
-            // 
             // lblIncidentManagementSystem_User
             // 
             this.lblIncidentManagementSystem_User.AutoSize = true;
@@ -529,18 +499,6 @@
             this.grbUserLogo_User.Size = new System.Drawing.Size(183, 74);
             this.grbUserLogo_User.TabIndex = 86;
             this.grbUserLogo_User.TabStop = false;
-            // 
-            // picUserPhoto_User
-            // 
-            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
-            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_User.ErrorImage = null;
-            this.picUserPhoto_User.InitialImage = null;
-            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_User.Name = "picUserPhoto_User";
-            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_User.TabIndex = 5;
-            this.picUserPhoto_User.TabStop = false;
             // 
             // lblUserRole_User
             // 
@@ -721,9 +679,9 @@
             this.lblLogs_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogs_Analyst.Location = new System.Drawing.Point(6, 67);
             this.lblLogs_Analyst.Name = "lblLogs_Analyst";
-            this.lblLogs_Analyst.Size = new System.Drawing.Size(419, 18);
+            this.lblLogs_Analyst.Size = new System.Drawing.Size(132, 18);
             this.lblLogs_Analyst.TabIndex = 69;
-            this.lblLogs_Analyst.Text = "SUSPICIOUS EMAIL WITH MALICIOUS ATTACHMENT";
+            this.lblLogs_Analyst.Text = "NAME OF CASE";
             // 
             // btnBACKTOCASES_ANALYST
             // 
@@ -979,9 +937,9 @@
             this.txtAllCasesReportedAt_Analyst,
             this.txtAllCasesLastUpdated_Analyst,
             this.txtAllCasesSLADeadline_Analyst});
-            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 45);
+            this.dgvAllCasesCaseInformation_Analyst.Location = new System.Drawing.Point(11, 35);
             this.dgvAllCasesCaseInformation_Analyst.Name = "dgvAllCasesCaseInformation_Analyst";
-            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 355);
+            this.dgvAllCasesCaseInformation_Analyst.Size = new System.Drawing.Size(540, 365);
             this.dgvAllCasesCaseInformation_Analyst.TabIndex = 29;
             // 
             // cmbAllCasesReporter_Analyst
@@ -1028,6 +986,48 @@
             this.lblAllCasesCaseInformation_Analyst.TabIndex = 28;
             this.lblAllCasesCaseInformation_Analyst.Text = "CASE INFORMATION";
             // 
+            // picCyberTrackLogo_User
+            // 
+            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
+            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
+            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_User.TabIndex = 25;
+            this.picCyberTrackLogo_User.TabStop = false;
+            // 
+            // picUserPhoto_User
+            // 
+            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
+            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_User.ErrorImage = null;
+            this.picUserPhoto_User.InitialImage = null;
+            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_User.Name = "picUserPhoto_User";
+            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_User.TabIndex = 5;
+            this.picUserPhoto_User.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox1_Analyst
+            // 
+            this.pictureBox1_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1_Analyst.Image")));
+            this.pictureBox1_Analyst.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox1_Analyst.Name = "pictureBox1_Analyst";
+            this.pictureBox1_Analyst.Size = new System.Drawing.Size(44, 42);
+            this.pictureBox1_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1_Analyst.TabIndex = 25;
+            this.pictureBox1_Analyst.TabStop = false;
+            // 
             // AllCasesEvidence_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1047,22 +1047,18 @@
             this.Text = "Evidence_User";
             this.groupBox7_Analyst.ResumeLayout(false);
             this.groupBox7_Analyst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).EndInit();
             this.groupBox1_Analyst.ResumeLayout(false);
             this.groupBox1_Analyst.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.grbLogo_User.ResumeLayout(false);
             this.grbLogo_User.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
             this.grbPermissions_User.ResumeLayout(false);
             this.grbPermissions_User.PerformLayout();
             this.grbUserLogo_User.ResumeLayout(false);
             this.grbUserLogo_User.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();
             this.groupBox3_ANALYST.ResumeLayout(false);
@@ -1083,6 +1079,10 @@
             this.groupBox4_ANALYST.ResumeLayout(false);
             this.groupBox4_ANALYST.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).EndInit();
             this.ResumeLayout(false);
 
         }

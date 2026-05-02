@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfileUsercs));
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.USERPROFILEgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.picProfileUserPhoto_Analyst = new System.Windows.Forms.PictureBox();
             this.btnProfileNotifications_Analyst = new System.Windows.Forms.Button();
@@ -88,6 +86,8 @@
             this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
+            this.lblSecuritySettingsDesc_Administrator = new System.Windows.Forms.Label();
+            this.lblUserProfileDesc_Administrator = new System.Windows.Forms.Label();
             this.USERPROFILEgb_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picProfileUserPhoto_Analyst)).BeginInit();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
@@ -106,12 +106,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
             this.SuspendLayout();
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // USERPROFILEgb_ANALYST
             // 
             this.USERPROFILEgb_ANALYST.Controls.Add(this.picProfileUserPhoto_Analyst);
@@ -121,7 +115,7 @@
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileActivity_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileRole_Analyst);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileUserFullName_Analyst);
-            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(12, 158);
+            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(12, 151);
             this.USERPROFILEgb_ANALYST.Name = "USERPROFILEgb_ANALYST";
             this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 466);
             this.USERPROFILEgb_ANALYST.TabIndex = 94;
@@ -192,6 +186,7 @@
             // 
             // PINFORMATIONgb_ANALYST
             // 
+            this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblSecuritySettingsDesc_Administrator);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.LOGINgroupBox6_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.ASSIGNEDgroupBox5_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.CREATEDgroupBox4_ANALYST);
@@ -201,7 +196,7 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.dgvProfilePersonalInformation_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.lblProfilePersonalInformation_Analyst);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfilePersonalInfoPhoto_Analyst);
-            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(442, 158);
+            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(442, 151);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
             this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 695);
             this.PINFORMATIONgb_ANALYST.TabIndex = 92;
@@ -474,7 +469,7 @@
             // 
             this.USERPROFILElbl_ANALYST.AutoSize = true;
             this.USERPROFILElbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(9, 114);
+            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(9, 107);
             this.USERPROFILElbl_ANALYST.Name = "USERPROFILElbl_ANALYST";
             this.USERPROFILElbl_ANALYST.Size = new System.Drawing.Size(129, 18);
             this.USERPROFILElbl_ANALYST.TabIndex = 91;
@@ -647,11 +642,30 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
+            // lblSecuritySettingsDesc_Administrator
+            // 
+            this.lblSecuritySettingsDesc_Administrator.AutoSize = true;
+            this.lblSecuritySettingsDesc_Administrator.Location = new System.Drawing.Point(74, 61);
+            this.lblSecuritySettingsDesc_Administrator.Name = "lblSecuritySettingsDesc_Administrator";
+            this.lblSecuritySettingsDesc_Administrator.Size = new System.Drawing.Size(218, 13);
+            this.lblSecuritySettingsDesc_Administrator.TabIndex = 88;
+            this.lblSecuritySettingsDesc_Administrator.Text = "Your account details and contact information";
+            // 
+            // lblUserProfileDesc_Administrator
+            // 
+            this.lblUserProfileDesc_Administrator.AutoSize = true;
+            this.lblUserProfileDesc_Administrator.Location = new System.Drawing.Point(9, 125);
+            this.lblUserProfileDesc_Administrator.Name = "lblUserProfileDesc_Administrator";
+            this.lblUserProfileDesc_Administrator.Size = new System.Drawing.Size(245, 13);
+            this.lblUserProfileDesc_Administrator.TabIndex = 89;
+            this.lblUserProfileDesc_Administrator.Text = "Manage your account information and preferences";
+            // 
             // ProfileUsercs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 861);
+            this.Controls.Add(this.lblUserProfileDesc_Administrator);
             this.Controls.Add(this.grbLogo_User);
             this.Controls.Add(this.grbPermissions_User);
             this.Controls.Add(this.grbUserLogo_User);
@@ -694,7 +708,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.GroupBox USERPROFILEgb_ANALYST;
         private System.Windows.Forms.PictureBox picProfileUserPhoto_Analyst;
         private System.Windows.Forms.Button btnProfileNotifications_Analyst;
@@ -752,5 +765,7 @@
         private System.Windows.Forms.PictureBox picUserPhoto_User;
         private System.Windows.Forms.Label lblUserRole_User;
         private System.Windows.Forms.Label lblUserName_User;
+        private System.Windows.Forms.Label lblSecuritySettingsDesc_Administrator;
+        private System.Windows.Forms.Label lblUserProfileDesc_Administrator;
     }
 }

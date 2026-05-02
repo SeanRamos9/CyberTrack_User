@@ -54,14 +54,12 @@
             this.lblDelete_Administrator = new System.Windows.Forms.Label();
             this.lblUpdate_Administrator = new System.Windows.Forms.Label();
             this.lblPermissions_Administrator = new System.Windows.Forms.Label();
-            this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_Administrator = new System.Windows.Forms.Label();
             this.grbPermissions_Administrator = new System.Windows.Forms.GroupBox();
             this.lblCyberTrack_Administrator = new System.Windows.Forms.Label();
             this.grbLogo_Administrator = new System.Windows.Forms.GroupBox();
             this.lblUserName_Administrator = new System.Windows.Forms.Label();
             this.grbUserLogo_Administrator = new System.Windows.Forms.GroupBox();
-            this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
             this.lblUserRole_Administrator = new System.Windows.Forms.Label();
             this.txtAllCasesSize_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmbAllCasesType_Administrator = new System.Windows.Forms.DataGridViewComboBoxColumn();
@@ -98,15 +96,15 @@
             this.ATTACHMENTISSUES_ADMINISTRATOR = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesEvidenceandAttachments_Administrator = new System.Windows.Forms.DataGridView();
             this.txtAllCasesFileName_Administrator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.picCyberTrackLogo_Administrator = new System.Windows.Forms.PictureBox();
+            this.picUserPhoto_Administrator = new System.Windows.Forms.PictureBox();
             this.AFFECTEDSYSgb_ADMINISTRATOR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox4_ADMINISTRATOR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Administrator)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).BeginInit();
             this.grbPermissions_Administrator.SuspendLayout();
             this.grbLogo_Administrator.SuspendLayout();
             this.grbUserLogo_Administrator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).BeginInit();
             this.SEWMA_ADMINISTRATOR.SuspendLayout();
             this.SUBMITEVIDENCEGB_ADMINISTRATOR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesSelectFile_Administrator)).BeginInit();
@@ -116,6 +114,8 @@
             this.grpSTATUSGB_ADMINISTRATOR.SuspendLayout();
             this.ATTACHMENTISSUES_ADMINISTRATOR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesEvidenceandAttachments_Administrator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).BeginInit();
             this.SuspendLayout();
             // 
             // lblCreate_Administrator
@@ -339,16 +339,6 @@
             this.lblPermissions_Administrator.TabIndex = 4;
             this.lblPermissions_Administrator.Text = "Permissions";
             // 
-            // picCyberTrackLogo_Administrator
-            // 
-            this.picCyberTrackLogo_Administrator.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Administrator.Image")));
-            this.picCyberTrackLogo_Administrator.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_Administrator.Name = "picCyberTrackLogo_Administrator";
-            this.picCyberTrackLogo_Administrator.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_Administrator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_Administrator.TabIndex = 25;
-            this.picCyberTrackLogo_Administrator.TabStop = false;
-            // 
             // lblIncidentManagementSystem_Administrator
             // 
             this.lblIncidentManagementSystem_Administrator.AutoSize = true;
@@ -414,18 +404,6 @@
             this.grbUserLogo_Administrator.Size = new System.Drawing.Size(183, 74);
             this.grbUserLogo_Administrator.TabIndex = 95;
             this.grbUserLogo_Administrator.TabStop = false;
-            // 
-            // picUserPhoto_Administrator
-            // 
-            this.picUserPhoto_Administrator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Administrator.BackgroundImage")));
-            this.picUserPhoto_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_Administrator.ErrorImage = null;
-            this.picUserPhoto_Administrator.InitialImage = null;
-            this.picUserPhoto_Administrator.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_Administrator.Name = "picUserPhoto_Administrator";
-            this.picUserPhoto_Administrator.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_Administrator.TabIndex = 5;
-            this.picUserPhoto_Administrator.TabStop = false;
             // 
             // lblUserRole_Administrator
             // 
@@ -730,9 +708,9 @@
             this.lblLogs_Administrator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogs_Administrator.Location = new System.Drawing.Point(6, 67);
             this.lblLogs_Administrator.Name = "lblLogs_Administrator";
-            this.lblLogs_Administrator.Size = new System.Drawing.Size(419, 18);
+            this.lblLogs_Administrator.Size = new System.Drawing.Size(132, 18);
             this.lblLogs_Administrator.TabIndex = 69;
-            this.lblLogs_Administrator.Text = "SUSPICIOUS EMAIL WITH MALICIOUS ATTACHMENT";
+            this.lblLogs_Administrator.Text = "NAME OF CASE";
             // 
             // btnBACKTOCASES_ADMINISTRATOR
             // 
@@ -776,6 +754,28 @@
             this.txtAllCasesFileName_Administrator.Name = "txtAllCasesFileName_Administrator";
             this.txtAllCasesFileName_Administrator.ReadOnly = true;
             // 
+            // picCyberTrackLogo_Administrator
+            // 
+            this.picCyberTrackLogo_Administrator.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_Administrator.Image")));
+            this.picCyberTrackLogo_Administrator.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_Administrator.Name = "picCyberTrackLogo_Administrator";
+            this.picCyberTrackLogo_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_Administrator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_Administrator.TabIndex = 25;
+            this.picCyberTrackLogo_Administrator.TabStop = false;
+            // 
+            // picUserPhoto_Administrator
+            // 
+            this.picUserPhoto_Administrator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_Administrator.BackgroundImage")));
+            this.picUserPhoto_Administrator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_Administrator.ErrorImage = null;
+            this.picUserPhoto_Administrator.InitialImage = null;
+            this.picUserPhoto_Administrator.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_Administrator.Name = "picUserPhoto_Administrator";
+            this.picUserPhoto_Administrator.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_Administrator.TabIndex = 5;
+            this.picUserPhoto_Administrator.TabStop = false;
+            // 
             // AllCasesEvidence2_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -794,14 +794,12 @@
             this.groupBox4_ADMINISTRATOR.ResumeLayout(false);
             this.groupBox4_ADMINISTRATOR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Administrator)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).EndInit();
             this.grbPermissions_Administrator.ResumeLayout(false);
             this.grbPermissions_Administrator.PerformLayout();
             this.grbLogo_Administrator.ResumeLayout(false);
             this.grbLogo_Administrator.PerformLayout();
             this.grbUserLogo_Administrator.ResumeLayout(false);
             this.grbUserLogo_Administrator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).EndInit();
             this.SEWMA_ADMINISTRATOR.ResumeLayout(false);
             this.SEWMA_ADMINISTRATOR.PerformLayout();
             this.SUBMITEVIDENCEGB_ADMINISTRATOR.ResumeLayout(false);
@@ -817,6 +815,8 @@
             this.ATTACHMENTISSUES_ADMINISTRATOR.ResumeLayout(false);
             this.ATTACHMENTISSUES_ADMINISTRATOR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesEvidenceandAttachments_Administrator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_Administrator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_Administrator)).EndInit();
             this.ResumeLayout(false);
 
         }
