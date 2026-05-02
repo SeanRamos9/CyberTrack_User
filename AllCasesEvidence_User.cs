@@ -21,5 +21,10 @@ namespace CyberTrack_User
         {
 
         }
+
+        private void dgvAllCasesAffectedSystems_User_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

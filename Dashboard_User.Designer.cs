@@ -29,35 +29,33 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard_User));
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.CASE_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SEVERITY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ASSIGNED_TO = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.SUBMITTED = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ACTION = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label30 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblDashboardMyTotalReports_User = new System.Windows.Forms.Label();
+            this.lblDashboardReport_User = new System.Windows.Forms.Label();
+            this.btnDashboardReport_User = new System.Windows.Forms.Button();
+            this.grbDashboardReported_User = new System.Windows.Forms.GroupBox();
+            this.dgvDashboardReported_User = new System.Windows.Forms.DataGridView();
+            this.picDashboardReportedPhoto_User = new System.Windows.Forms.PictureBox();
+            this.lblDashboardReported_User = new System.Windows.Forms.Label();
+            this.grbDashboardActiveCases_User = new System.Windows.Forms.GroupBox();
+            this.txtDashboardActiveCases_User = new System.Windows.Forms.TextBox();
+            this.lblDashboardActiveCases_User = new System.Windows.Forms.Label();
+            this.grbDashboardResolved_User = new System.Windows.Forms.GroupBox();
+            this.txtDashboardResolved_User = new System.Windows.Forms.TextBox();
+            this.lblDashboardResolved_User = new System.Windows.Forms.Label();
+            this.txtDashboardMyTotalReports_User = new System.Windows.Forms.TextBox();
+            this.grbDashboardMyTotalReports_User = new System.Windows.Forms.GroupBox();
+            this.grbDashboardUserDashboard_User = new System.Windows.Forms.GroupBox();
+            this.grbDashboardNeedHelp_User = new System.Windows.Forms.GroupBox();
+            this.lblDashboardNeedHelp_User = new System.Windows.Forms.Label();
+            this.lblDashboardNeedHelp2_User = new System.Windows.Forms.Label();
+            this.lblDashboardSubmitandTrack_User = new System.Windows.Forms.Label();
+            this.lblDashboardUserDashboard_User = new System.Windows.Forms.Label();
+            this.picDashboardLogo_User = new System.Windows.Forms.PictureBox();
+            this.grbDashboardReport_User = new System.Windows.Forms.GroupBox();
+            this.lblDashboardReport2_User = new System.Windows.Forms.Label();
+            this.picDashboardReport_User = new System.Windows.Forms.PictureBox();
             this.grbLogo_User = new System.Windows.Forms.GroupBox();
+            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_User = new System.Windows.Forms.Label();
             this.lblCyberTrack_User = new System.Windows.Forms.Label();
             this.grbPermissions_User = new System.Windows.Forms.GroupBox();
@@ -69,318 +67,306 @@
             this.lblCreate_User = new System.Windows.Forms.Label();
             this.lblPermissions_User = new System.Windows.Forms.Label();
             this.grbUserLogo_User = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
-            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
-            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox7.SuspendLayout();
+            this.txtDashboardCaseID_User = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardTitle_User = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtDashboardSeverity_User = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbDashboardAssignedTo_User = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.txtDashboardSubmitted_User = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDashboardAction_User = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.grbDashboardReported_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardReported_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardReportedPhoto_User)).BeginInit();
+            this.grbDashboardActiveCases_User.SuspendLayout();
+            this.grbDashboardResolved_User.SuspendLayout();
+            this.grbDashboardMyTotalReports_User.SuspendLayout();
+            this.grbDashboardUserDashboard_User.SuspendLayout();
+            this.grbDashboardNeedHelp_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardLogo_User)).BeginInit();
+            this.grbDashboardReport_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardReport_User)).BeginInit();
             this.grbLogo_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
             this.grbPermissions_User.SuspendLayout();
             this.grbUserLogo_User.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // label14
+            // lblDashboardMyTotalReports_User
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(11, 16);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(132, 13);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "MY TOTAL REPORTS";
+            this.lblDashboardMyTotalReports_User.AutoSize = true;
+            this.lblDashboardMyTotalReports_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardMyTotalReports_User.Location = new System.Drawing.Point(11, 16);
+            this.lblDashboardMyTotalReports_User.Name = "lblDashboardMyTotalReports_User";
+            this.lblDashboardMyTotalReports_User.Size = new System.Drawing.Size(132, 13);
+            this.lblDashboardMyTotalReports_User.TabIndex = 4;
+            this.lblDashboardMyTotalReports_User.Text = "MY TOTAL REPORTS";
             // 
-            // label15
+            // lblDashboardReport_User
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(515, 77);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(214, 15);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "REPORT A SECURITY REPORT?";
+            this.lblDashboardReport_User.AutoSize = true;
+            this.lblDashboardReport_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardReport_User.Location = new System.Drawing.Point(1436, 258);
+            this.lblDashboardReport_User.Name = "lblDashboardReport_User";
+            this.lblDashboardReport_User.Size = new System.Drawing.Size(214, 15);
+            this.lblDashboardReport_User.TabIndex = 7;
+            this.lblDashboardReport_User.Text = "REPORT A SECURITY REPORT?";
             // 
-            // button4
+            // btnDashboardReport_User
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(518, 108);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 36);
-            this.button4.TabIndex = 30;
-            this.button4.Text = "SUBMIT NEW REPORT";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnDashboardReport_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboardReport_User.Location = new System.Drawing.Point(518, 108);
+            this.btnDashboardReport_User.Name = "btnDashboardReport_User";
+            this.btnDashboardReport_User.Size = new System.Drawing.Size(200, 36);
+            this.btnDashboardReport_User.TabIndex = 30;
+            this.btnDashboardReport_User.Text = "SUBMIT NEW REPORT";
+            this.btnDashboardReport_User.UseVisualStyleBackColor = true;
             // 
-            // groupBox8
+            // grbDashboardReported_User
             // 
-            this.groupBox8.Controls.Add(this.dataGridView2);
-            this.groupBox8.Controls.Add(this.pictureBox5);
-            this.groupBox8.Controls.Add(this.label30);
-            this.groupBox8.Location = new System.Drawing.Point(22, 336);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(1225, 263);
-            this.groupBox8.TabIndex = 34;
-            this.groupBox8.TabStop = false;
+            this.grbDashboardReported_User.Controls.Add(this.dgvDashboardReported_User);
+            this.grbDashboardReported_User.Controls.Add(this.picDashboardReportedPhoto_User);
+            this.grbDashboardReported_User.Controls.Add(this.lblDashboardReported_User);
+            this.grbDashboardReported_User.Location = new System.Drawing.Point(22, 336);
+            this.grbDashboardReported_User.Name = "grbDashboardReported_User";
+            this.grbDashboardReported_User.Size = new System.Drawing.Size(1225, 263);
+            this.grbDashboardReported_User.TabIndex = 34;
+            this.grbDashboardReported_User.TabStop = false;
             // 
-            // dataGridView2
+            // dgvDashboardReported_User
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.CASE_ID,
-            this.Title,
-            this.SEVERITY,
-            this.ASSIGNED_TO,
-            this.SUBMITTED,
-            this.ACTION});
-            this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView2.Location = new System.Drawing.Point(26, 80);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 62;
-            this.dataGridView2.Size = new System.Drawing.Size(1176, 155);
-            this.dataGridView2.TabIndex = 71;
+            this.dgvDashboardReported_User.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDashboardReported_User.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.txtDashboardCaseID_User,
+            this.txtDashboardTitle_User,
+            this.txtDashboardSeverity_User,
+            this.cmbDashboardAssignedTo_User,
+            this.txtDashboardSubmitted_User,
+            this.btnDashboardAction_User});
+            this.dgvDashboardReported_User.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvDashboardReported_User.Location = new System.Drawing.Point(26, 80);
+            this.dgvDashboardReported_User.Name = "dgvDashboardReported_User";
+            this.dgvDashboardReported_User.RowHeadersWidth = 62;
+            this.dgvDashboardReported_User.Size = new System.Drawing.Size(1176, 155);
+            this.dgvDashboardReported_User.TabIndex = 71;
             // 
-            // CASE_ID
+            // picDashboardReportedPhoto_User
             // 
-            this.CASE_ID.HeaderText = "CASE ID";
-            this.CASE_ID.MinimumWidth = 8;
-            this.CASE_ID.Name = "CASE_ID";
-            this.CASE_ID.ReadOnly = true;
-            this.CASE_ID.Width = 182;
+            this.picDashboardReportedPhoto_User.BackgroundImage = global::CyberTrack_User.Properties.Resources.SubmitReportIcon;
+            this.picDashboardReportedPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardReportedPhoto_User.ErrorImage = null;
+            this.picDashboardReportedPhoto_User.InitialImage = null;
+            this.picDashboardReportedPhoto_User.Location = new System.Drawing.Point(26, 19);
+            this.picDashboardReportedPhoto_User.Name = "picDashboardReportedPhoto_User";
+            this.picDashboardReportedPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardReportedPhoto_User.TabIndex = 9;
+            this.picDashboardReportedPhoto_User.TabStop = false;
             // 
-            // Title
+            // lblDashboardReported_User
             // 
-            this.Title.HeaderText = "TITLE";
-            this.Title.MinimumWidth = 8;
-            this.Title.Name = "Title";
-            this.Title.ReadOnly = true;
-            this.Title.Width = 200;
+            this.lblDashboardReported_User.AutoSize = true;
+            this.lblDashboardReported_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardReported_User.Location = new System.Drawing.Point(76, 32);
+            this.lblDashboardReported_User.Name = "lblDashboardReported_User";
+            this.lblDashboardReported_User.Size = new System.Drawing.Size(206, 17);
+            this.lblDashboardReported_User.TabIndex = 7;
+            this.lblDashboardReported_User.Text = "MY REPORTED INCIDENTS";
             // 
-            // SEVERITY
+            // grbDashboardActiveCases_User
             // 
-            this.SEVERITY.HeaderText = "SEVERITY";
-            this.SEVERITY.MinimumWidth = 8;
-            this.SEVERITY.Name = "SEVERITY";
-            this.SEVERITY.ReadOnly = true;
-            this.SEVERITY.Width = 182;
+            this.grbDashboardActiveCases_User.Controls.Add(this.txtDashboardActiveCases_User);
+            this.grbDashboardActiveCases_User.Controls.Add(this.lblDashboardActiveCases_User);
+            this.grbDashboardActiveCases_User.Location = new System.Drawing.Point(457, 82);
+            this.grbDashboardActiveCases_User.Name = "grbDashboardActiveCases_User";
+            this.grbDashboardActiveCases_User.Size = new System.Drawing.Size(391, 87);
+            this.grbDashboardActiveCases_User.TabIndex = 27;
+            this.grbDashboardActiveCases_User.TabStop = false;
             // 
-            // ASSIGNED_TO
+            // txtDashboardActiveCases_User
             // 
-            this.ASSIGNED_TO.HeaderText = "ASSIGNED TO";
-            this.ASSIGNED_TO.MinimumWidth = 8;
-            this.ASSIGNED_TO.Name = "ASSIGNED_TO";
-            this.ASSIGNED_TO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ASSIGNED_TO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ASSIGNED_TO.Width = 182;
+            this.txtDashboardActiveCases_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardActiveCases_User.Location = new System.Drawing.Point(13, 32);
+            this.txtDashboardActiveCases_User.Name = "txtDashboardActiveCases_User";
+            this.txtDashboardActiveCases_User.ReadOnly = true;
+            this.txtDashboardActiveCases_User.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardActiveCases_User.TabIndex = 5;
             // 
-            // SUBMITTED
+            // lblDashboardActiveCases_User
             // 
-            this.SUBMITTED.HeaderText = "SUBMITTED";
-            this.SUBMITTED.MinimumWidth = 8;
-            this.SUBMITTED.Name = "SUBMITTED";
-            this.SUBMITTED.ReadOnly = true;
-            this.SUBMITTED.Width = 183;
+            this.lblDashboardActiveCases_User.AutoSize = true;
+            this.lblDashboardActiveCases_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardActiveCases_User.Location = new System.Drawing.Point(10, 16);
+            this.lblDashboardActiveCases_User.Name = "lblDashboardActiveCases_User";
+            this.lblDashboardActiveCases_User.Size = new System.Drawing.Size(95, 13);
+            this.lblDashboardActiveCases_User.TabIndex = 4;
+            this.lblDashboardActiveCases_User.Text = "ACTIVE CASES";
             // 
-            // ACTION
+            // grbDashboardResolved_User
             // 
-            this.ACTION.HeaderText = "ACTION";
-            this.ACTION.MinimumWidth = 8;
-            this.ACTION.Name = "ACTION";
-            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ACTION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ACTION.Text = "MANAGE";
-            this.ACTION.Width = 182;
+            this.grbDashboardResolved_User.Controls.Add(this.txtDashboardResolved_User);
+            this.grbDashboardResolved_User.Controls.Add(this.lblDashboardResolved_User);
+            this.grbDashboardResolved_User.Location = new System.Drawing.Point(869, 81);
+            this.grbDashboardResolved_User.Name = "grbDashboardResolved_User";
+            this.grbDashboardResolved_User.Size = new System.Drawing.Size(378, 87);
+            this.grbDashboardResolved_User.TabIndex = 28;
+            this.grbDashboardResolved_User.TabStop = false;
             // 
-            // label30
+            // txtDashboardResolved_User
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(76, 32);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(206, 17);
-            this.label30.TabIndex = 7;
-            this.label30.Text = "MY REPORTED INCIDENTS";
+            this.txtDashboardResolved_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardResolved_User.Location = new System.Drawing.Point(13, 32);
+            this.txtDashboardResolved_User.Name = "txtDashboardResolved_User";
+            this.txtDashboardResolved_User.ReadOnly = true;
+            this.txtDashboardResolved_User.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardResolved_User.TabIndex = 5;
             // 
-            // groupBox4
+            // lblDashboardResolved_User
             // 
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Location = new System.Drawing.Point(457, 82);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(391, 87);
-            this.groupBox4.TabIndex = 27;
-            this.groupBox4.TabStop = false;
+            this.lblDashboardResolved_User.AutoSize = true;
+            this.lblDashboardResolved_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardResolved_User.Location = new System.Drawing.Point(11, 16);
+            this.lblDashboardResolved_User.Name = "lblDashboardResolved_User";
+            this.lblDashboardResolved_User.Size = new System.Drawing.Size(73, 13);
+            this.lblDashboardResolved_User.TabIndex = 4;
+            this.lblDashboardResolved_User.Text = "RESOLVED";
             // 
-            // textBox2
+            // txtDashboardMyTotalReports_User
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(13, 32);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(77, 31);
-            this.textBox2.TabIndex = 5;
+            this.txtDashboardMyTotalReports_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDashboardMyTotalReports_User.Location = new System.Drawing.Point(13, 32);
+            this.txtDashboardMyTotalReports_User.Name = "txtDashboardMyTotalReports_User";
+            this.txtDashboardMyTotalReports_User.ReadOnly = true;
+            this.txtDashboardMyTotalReports_User.Size = new System.Drawing.Size(77, 31);
+            this.txtDashboardMyTotalReports_User.TabIndex = 5;
             // 
-            // label11
+            // grbDashboardMyTotalReports_User
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(10, 16);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(95, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "ACTIVE CASES";
+            this.grbDashboardMyTotalReports_User.Controls.Add(this.txtDashboardMyTotalReports_User);
+            this.grbDashboardMyTotalReports_User.Controls.Add(this.lblDashboardMyTotalReports_User);
+            this.grbDashboardMyTotalReports_User.Location = new System.Drawing.Point(27, 81);
+            this.grbDashboardMyTotalReports_User.Name = "grbDashboardMyTotalReports_User";
+            this.grbDashboardMyTotalReports_User.Size = new System.Drawing.Size(414, 87);
+            this.grbDashboardMyTotalReports_User.TabIndex = 26;
+            this.grbDashboardMyTotalReports_User.TabStop = false;
             // 
-            // groupBox5
+            // grbDashboardUserDashboard_User
             // 
-            this.groupBox5.Controls.Add(this.textBox3);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Location = new System.Drawing.Point(869, 81);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(378, 87);
-            this.groupBox5.TabIndex = 28;
-            this.groupBox5.TabStop = false;
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardNeedHelp_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardReported_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardResolved_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardActiveCases_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardMyTotalReports_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.lblDashboardSubmitandTrack_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.lblDashboardUserDashboard_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.picDashboardLogo_User);
+            this.grbDashboardUserDashboard_User.Controls.Add(this.grbDashboardReport_User);
+            this.grbDashboardUserDashboard_User.Location = new System.Drawing.Point(8, 86);
+            this.grbDashboardUserDashboard_User.Name = "grbDashboardUserDashboard_User";
+            this.grbDashboardUserDashboard_User.Size = new System.Drawing.Size(1260, 902);
+            this.grbDashboardUserDashboard_User.TabIndex = 43;
+            this.grbDashboardUserDashboard_User.TabStop = false;
             // 
-            // textBox3
+            // grbDashboardNeedHelp_User
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(13, 32);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(77, 31);
-            this.textBox3.TabIndex = 5;
+            this.grbDashboardNeedHelp_User.Controls.Add(this.lblDashboardNeedHelp_User);
+            this.grbDashboardNeedHelp_User.Controls.Add(this.lblDashboardNeedHelp2_User);
+            this.grbDashboardNeedHelp_User.Location = new System.Drawing.Point(22, 620);
+            this.grbDashboardNeedHelp_User.Name = "grbDashboardNeedHelp_User";
+            this.grbDashboardNeedHelp_User.Size = new System.Drawing.Size(1225, 263);
+            this.grbDashboardNeedHelp_User.TabIndex = 35;
+            this.grbDashboardNeedHelp_User.TabStop = false;
+            this.grbDashboardNeedHelp_User.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // label12
+            // lblDashboardNeedHelp_User
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(11, 16);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(73, 13);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "RESOLVED";
+            this.lblDashboardNeedHelp_User.AutoSize = true;
+            this.lblDashboardNeedHelp_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardNeedHelp_User.Location = new System.Drawing.Point(35, 28);
+            this.lblDashboardNeedHelp_User.Name = "lblDashboardNeedHelp_User";
+            this.lblDashboardNeedHelp_User.Size = new System.Drawing.Size(104, 17);
+            this.lblDashboardNeedHelp_User.TabIndex = 25;
+            this.lblDashboardNeedHelp_User.Text = "NEED HELP?";
             // 
-            // textBox1
+            // lblDashboardNeedHelp2_User
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(13, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(77, 31);
-            this.textBox1.TabIndex = 5;
+            this.lblDashboardNeedHelp2_User.AutoSize = true;
+            this.lblDashboardNeedHelp2_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardNeedHelp2_User.Location = new System.Drawing.Point(33, 82);
+            this.lblDashboardNeedHelp2_User.Name = "lblDashboardNeedHelp2_User";
+            this.lblDashboardNeedHelp2_User.Size = new System.Drawing.Size(701, 160);
+            this.lblDashboardNeedHelp2_User.TabIndex = 0;
+            this.lblDashboardNeedHelp2_User.Text = resources.GetString("lblDashboardNeedHelp2_User.Text");
             // 
-            // groupBox3
+            // lblDashboardSubmitandTrack_User
             // 
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Location = new System.Drawing.Point(27, 81);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(414, 87);
-            this.groupBox3.TabIndex = 26;
-            this.groupBox3.TabStop = false;
+            this.lblDashboardSubmitandTrack_User.AutoSize = true;
+            this.lblDashboardSubmitandTrack_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardSubmitandTrack_User.Location = new System.Drawing.Point(27, 64);
+            this.lblDashboardSubmitandTrack_User.Name = "lblDashboardSubmitandTrack_User";
+            this.lblDashboardSubmitandTrack_User.Size = new System.Drawing.Size(180, 13);
+            this.lblDashboardSubmitandTrack_User.TabIndex = 25;
+            this.lblDashboardSubmitandTrack_User.Text = "Submit and track your incident report";
             // 
-            // groupBox1
+            // lblDashboardUserDashboard_User
             // 
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.groupBox8);
-            this.groupBox1.Controls.Add(this.groupBox5);
-            this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.pictureBox3);
-            this.groupBox1.Controls.Add(this.groupBox7);
-            this.groupBox1.Location = new System.Drawing.Point(8, 86);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1260, 902);
-            this.groupBox1.TabIndex = 43;
-            this.groupBox1.TabStop = false;
+            this.lblDashboardUserDashboard_User.AutoSize = true;
+            this.lblDashboardUserDashboard_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboardUserDashboard_User.Location = new System.Drawing.Point(76, 32);
+            this.lblDashboardUserDashboard_User.Name = "lblDashboardUserDashboard_User";
+            this.lblDashboardUserDashboard_User.Size = new System.Drawing.Size(151, 17);
+            this.lblDashboardUserDashboard_User.TabIndex = 24;
+            this.lblDashboardUserDashboard_User.Text = "USER DASHBOARD";
+            this.lblDashboardUserDashboard_User.Click += new System.EventHandler(this.label9_Click);
             // 
-            // groupBox2
+            // picDashboardLogo_User
             // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(22, 620);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1225, 263);
-            this.groupBox2.TabIndex = 35;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.picDashboardLogo_User.BackgroundImage = global::CyberTrack_User.Properties.Resources.UserIcon;
+            this.picDashboardLogo_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardLogo_User.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picDashboardLogo_User.ErrorImage = null;
+            this.picDashboardLogo_User.InitialImage = null;
+            this.picDashboardLogo_User.Location = new System.Drawing.Point(27, 19);
+            this.picDashboardLogo_User.Name = "picDashboardLogo_User";
+            this.picDashboardLogo_User.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardLogo_User.TabIndex = 23;
+            this.picDashboardLogo_User.TabStop = false;
             // 
-            // label2
+            // grbDashboardReport_User
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 17);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "NEED HELP?";
+            this.grbDashboardReport_User.Controls.Add(this.lblDashboardReport2_User);
+            this.grbDashboardReport_User.Controls.Add(this.picDashboardReport_User);
+            this.grbDashboardReport_User.Controls.Add(this.lblDashboardReport_User);
+            this.grbDashboardReport_User.Controls.Add(this.btnDashboardReport_User);
+            this.grbDashboardReport_User.Location = new System.Drawing.Point(22, 175);
+            this.grbDashboardReport_User.Name = "grbDashboardReport_User";
+            this.grbDashboardReport_User.Size = new System.Drawing.Size(1225, 163);
+            this.grbDashboardReport_User.TabIndex = 33;
+            this.grbDashboardReport_User.TabStop = false;
             // 
-            // label1
+            // lblDashboardReport2_User
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(701, 160);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.lblDashboardReport2_User.AutoSize = true;
+            this.lblDashboardReport2_User.Location = new System.Drawing.Point(519, 91);
+            this.lblDashboardReport2_User.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDashboardReport2_User.Name = "lblDashboardReport2_User";
+            this.lblDashboardReport2_User.Size = new System.Drawing.Size(199, 13);
+            this.lblDashboardReport2_User.TabIndex = 31;
+            this.lblDashboardReport2_User.Text = "Submit a new report to the security team ";
+            this.lblDashboardReport2_User.Click += new System.EventHandler(this.label13_Click);
             // 
-            // label10
+            // picDashboardReport_User
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(27, 64);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(180, 13);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "Submit and track your incident report";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(76, 32);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(151, 17);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "USER DASHBOARD";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.label13);
-            this.groupBox7.Controls.Add(this.pictureBox4);
-            this.groupBox7.Controls.Add(this.label15);
-            this.groupBox7.Controls.Add(this.button4);
-            this.groupBox7.Location = new System.Drawing.Point(22, 175);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1225, 163);
-            this.groupBox7.TabIndex = 33;
-            this.groupBox7.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(519, 91);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(199, 13);
-            this.label13.TabIndex = 31;
-            this.label13.Text = "Submit a new report to the security team ";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
+            this.picDashboardReport_User.BackgroundImage = global::CyberTrack_User.Properties.Resources.SubmitReportIcon;
+            this.picDashboardReport_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDashboardReport_User.ErrorImage = null;
+            this.picDashboardReport_User.InitialImage = null;
+            this.picDashboardReport_User.Location = new System.Drawing.Point(592, 28);
+            this.picDashboardReport_User.Name = "picDashboardReport_User";
+            this.picDashboardReport_User.Size = new System.Drawing.Size(44, 42);
+            this.picDashboardReport_User.TabIndex = 9;
+            this.picDashboardReport_User.TabStop = false;
             // 
             // grbLogo_User
             // 
@@ -392,6 +378,16 @@
             this.grbLogo_User.Size = new System.Drawing.Size(754, 74);
             this.grbLogo_User.TabIndex = 84;
             this.grbLogo_User.TabStop = false;
+            // 
+            // picCyberTrackLogo_User
+            // 
+            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
+            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
+            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_User.TabIndex = 25;
+            this.picCyberTrackLogo_User.TabStop = false;
             // 
             // lblIncidentManagementSystem_User
             // 
@@ -508,6 +504,18 @@
             this.grbUserLogo_User.TabIndex = 83;
             this.grbUserLogo_User.TabStop = false;
             // 
+            // picUserPhoto_User
+            // 
+            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
+            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_User.ErrorImage = null;
+            this.picUserPhoto_User.InitialImage = null;
+            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_User.Name = "picUserPhoto_User";
+            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_User.TabIndex = 5;
+            this.picUserPhoto_User.TabStop = false;
+            // 
             // lblUserRole_User
             // 
             this.lblUserRole_User.AutoSize = true;
@@ -527,64 +535,56 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
-            // picCyberTrackLogo_User
+            // txtDashboardCaseID_User
             // 
-            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
-            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
-            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
-            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
-            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCyberTrackLogo_User.TabIndex = 25;
-            this.picCyberTrackLogo_User.TabStop = false;
+            this.txtDashboardCaseID_User.HeaderText = "CASE ID";
+            this.txtDashboardCaseID_User.MinimumWidth = 8;
+            this.txtDashboardCaseID_User.Name = "txtDashboardCaseID_User";
+            this.txtDashboardCaseID_User.ReadOnly = true;
+            this.txtDashboardCaseID_User.Width = 182;
             // 
-            // picUserPhoto_User
+            // txtDashboardTitle_User
             // 
-            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
-            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picUserPhoto_User.ErrorImage = null;
-            this.picUserPhoto_User.InitialImage = null;
-            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
-            this.picUserPhoto_User.Name = "picUserPhoto_User";
-            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
-            this.picUserPhoto_User.TabIndex = 5;
-            this.picUserPhoto_User.TabStop = false;
+            this.txtDashboardTitle_User.HeaderText = "TITLE";
+            this.txtDashboardTitle_User.MinimumWidth = 8;
+            this.txtDashboardTitle_User.Name = "txtDashboardTitle_User";
+            this.txtDashboardTitle_User.ReadOnly = true;
+            this.txtDashboardTitle_User.Width = 200;
             // 
-            // pictureBox5
+            // txtDashboardSeverity_User
             // 
-            this.pictureBox5.BackgroundImage = global::CyberTrack_User.Properties.Resources.SubmitReportIcon;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.ErrorImage = null;
-            this.pictureBox5.InitialImage = null;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 19);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            this.txtDashboardSeverity_User.HeaderText = "SEVERITY";
+            this.txtDashboardSeverity_User.MinimumWidth = 8;
+            this.txtDashboardSeverity_User.Name = "txtDashboardSeverity_User";
+            this.txtDashboardSeverity_User.ReadOnly = true;
+            this.txtDashboardSeverity_User.Width = 182;
             // 
-            // pictureBox3
+            // cmbDashboardAssignedTo_User
             // 
-            this.pictureBox3.BackgroundImage = global::CyberTrack_User.Properties.Resources.UserIcon;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.cmbDashboardAssignedTo_User.HeaderText = "ASSIGNED TO";
+            this.cmbDashboardAssignedTo_User.MinimumWidth = 8;
+            this.cmbDashboardAssignedTo_User.Name = "cmbDashboardAssignedTo_User";
+            this.cmbDashboardAssignedTo_User.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbDashboardAssignedTo_User.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.cmbDashboardAssignedTo_User.Width = 182;
             // 
-            // pictureBox4
+            // txtDashboardSubmitted_User
             // 
-            this.pictureBox4.BackgroundImage = global::CyberTrack_User.Properties.Resources.SubmitReportIcon;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.ErrorImage = null;
-            this.pictureBox4.InitialImage = null;
-            this.pictureBox4.Location = new System.Drawing.Point(592, 28);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 42);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
+            this.txtDashboardSubmitted_User.HeaderText = "SUBMITTED";
+            this.txtDashboardSubmitted_User.MinimumWidth = 8;
+            this.txtDashboardSubmitted_User.Name = "txtDashboardSubmitted_User";
+            this.txtDashboardSubmitted_User.ReadOnly = true;
+            this.txtDashboardSubmitted_User.Width = 183;
+            // 
+            // btnDashboardAction_User
+            // 
+            this.btnDashboardAction_User.HeaderText = "ACTION";
+            this.btnDashboardAction_User.MinimumWidth = 8;
+            this.btnDashboardAction_User.Name = "btnDashboardAction_User";
+            this.btnDashboardAction_User.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.btnDashboardAction_User.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.btnDashboardAction_User.Text = "MANAGE";
+            this.btnDashboardAction_User.Width = 182;
             // 
             // Dashboard_User
             // 
@@ -594,64 +594,64 @@
             this.Controls.Add(this.grbLogo_User);
             this.Controls.Add(this.grbPermissions_User);
             this.Controls.Add(this.grbUserLogo_User);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grbDashboardUserDashboard_User);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dashboard_User";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            this.grbDashboardReported_User.ResumeLayout(false);
+            this.grbDashboardReported_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDashboardReported_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardReportedPhoto_User)).EndInit();
+            this.grbDashboardActiveCases_User.ResumeLayout(false);
+            this.grbDashboardActiveCases_User.PerformLayout();
+            this.grbDashboardResolved_User.ResumeLayout(false);
+            this.grbDashboardResolved_User.PerformLayout();
+            this.grbDashboardMyTotalReports_User.ResumeLayout(false);
+            this.grbDashboardMyTotalReports_User.PerformLayout();
+            this.grbDashboardUserDashboard_User.ResumeLayout(false);
+            this.grbDashboardUserDashboard_User.PerformLayout();
+            this.grbDashboardNeedHelp_User.ResumeLayout(false);
+            this.grbDashboardNeedHelp_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardLogo_User)).EndInit();
+            this.grbDashboardReport_User.ResumeLayout(false);
+            this.grbDashboardReport_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDashboardReport_User)).EndInit();
             this.grbLogo_User.ResumeLayout(false);
             this.grbLogo_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
             this.grbPermissions_User.ResumeLayout(false);
             this.grbPermissions_User.PerformLayout();
             this.grbUserLogo_User.ResumeLayout(false);
             this.grbUserLogo_User.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblDashboardMyTotalReports_User;
+        private System.Windows.Forms.PictureBox picDashboardReport_User;
+        private System.Windows.Forms.Label lblDashboardReport_User;
+        private System.Windows.Forms.Button btnDashboardReport_User;
+        private System.Windows.Forms.GroupBox grbDashboardReported_User;
+        private System.Windows.Forms.DataGridView dgvDashboardReported_User;
+        private System.Windows.Forms.PictureBox picDashboardReportedPhoto_User;
+        private System.Windows.Forms.Label lblDashboardReported_User;
+        private System.Windows.Forms.GroupBox grbDashboardActiveCases_User;
+        private System.Windows.Forms.TextBox txtDashboardActiveCases_User;
+        private System.Windows.Forms.Label lblDashboardActiveCases_User;
+        private System.Windows.Forms.GroupBox grbDashboardResolved_User;
+        private System.Windows.Forms.TextBox txtDashboardResolved_User;
+        private System.Windows.Forms.Label lblDashboardResolved_User;
+        private System.Windows.Forms.TextBox txtDashboardMyTotalReports_User;
+        private System.Windows.Forms.GroupBox grbDashboardMyTotalReports_User;
+        private System.Windows.Forms.GroupBox grbDashboardUserDashboard_User;
+        private System.Windows.Forms.Label lblDashboardSubmitandTrack_User;
+        private System.Windows.Forms.Label lblDashboardUserDashboard_User;
+        private System.Windows.Forms.PictureBox picDashboardLogo_User;
+        private System.Windows.Forms.GroupBox grbDashboardReport_User;
+        private System.Windows.Forms.Label lblDashboardReport2_User;
         private System.Windows.Forms.GroupBox grbLogo_User;
         private System.Windows.Forms.PictureBox picCyberTrackLogo_User;
         private System.Windows.Forms.Label lblIncidentManagementSystem_User;
@@ -668,14 +668,14 @@
         private System.Windows.Forms.PictureBox picUserPhoto_User;
         private System.Windows.Forms.Label lblUserRole_User;
         private System.Windows.Forms.Label lblUserName_User;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CASE_ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Title;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SEVERITY;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ASSIGNED_TO;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SUBMITTED;
-        private System.Windows.Forms.DataGridViewButtonColumn ACTION;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox grbDashboardNeedHelp_User;
+        private System.Windows.Forms.Label lblDashboardNeedHelp_User;
+        private System.Windows.Forms.Label lblDashboardNeedHelp2_User;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardCaseID_User;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardTitle_User;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardSeverity_User;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbDashboardAssignedTo_User;
+        private System.Windows.Forms.DataGridViewTextBoxColumn txtDashboardSubmitted_User;
+        private System.Windows.Forms.DataGridViewButtonColumn btnDashboardAction_User;
     }
 }

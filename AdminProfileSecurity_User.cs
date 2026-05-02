@@ -16,5 +16,10 @@ namespace CyberTrack_User
         {
             InitializeComponent();
         }
+
+        private void AdminProfileSecurity_User_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
