@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class StatusWorkflow_User : Form
+    public partial class AllCasesStatusWorkflow_User : Form
     {
-        public StatusWorkflow_User()
+        public AllCasesStatusWorkflow_User()
         {
             InitializeComponent();
         }

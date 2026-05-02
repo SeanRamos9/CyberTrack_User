@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_User
 {
-    partial class StatusWorkflow_User
+    partial class AllCasesStatusWorkflow_User
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatusWorkflow_User));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesStatusWorkflow_User));
             this.grbLogo_User = new System.Windows.Forms.GroupBox();
             this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
             this.lblIncidentManagementSystem_User = new System.Windows.Forms.Label();

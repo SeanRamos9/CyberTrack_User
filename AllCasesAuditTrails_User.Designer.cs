@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_User
 {
-    partial class AuditTrails_User
+    partial class AllCasesAuditTrails_User
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuditTrails_User));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesAuditTrails_User));
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
             this.AFFECTEDSYSgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesAffectedSystems_Analyst = new System.Windows.Forms.DataGridView();

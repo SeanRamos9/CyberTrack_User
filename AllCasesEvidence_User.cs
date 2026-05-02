@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class Evidence_User : Form
+    public partial class AllCasesEvidence_User : Form
     {
-        public Evidence_User()
+        public AllCasesEvidence_User()
         {
             InitializeComponent();
         }
