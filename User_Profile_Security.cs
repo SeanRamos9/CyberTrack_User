@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class SubmitReport_User : Form
+    public partial class User_Profile_Security : Form
     {
-        public SubmitReport_User()
+        public User_Profile_Security()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Submitted!");
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -37,13 +37,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
             this.submitAReportToolStripMenuItem,
             this.allCasesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1584, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(1924, 55);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -51,31 +53,30 @@
             // 
             this.dashboardToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(131, 34);
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(200, 49);
             this.dashboardToolStripMenuItem.Text = "Dashboard";
             // 
             // submitAReportToolStripMenuItem
             // 
             this.submitAReportToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitAReportToolStripMenuItem.Name = "submitAReportToolStripMenuItem";
-            this.submitAReportToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
+            this.submitAReportToolStripMenuItem.Size = new System.Drawing.Size(255, 49);
             this.submitAReportToolStripMenuItem.Text = "Submit Report";
             // 
             // allCasesToolStripMenuItem
             // 
             this.allCasesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.allCasesToolStripMenuItem.Name = "allCasesToolStripMenuItem";
-            this.allCasesToolStripMenuItem.Size = new System.Drawing.Size(111, 34);
+            this.allCasesToolStripMenuItem.Size = new System.Drawing.Size(168, 49);
             this.allCasesToolStripMenuItem.Text = "All Cases";
             // 
             // MainForm_User
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1584, 961);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm_User";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm_User";
