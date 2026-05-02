@@ -123,7 +123,7 @@
             this.USERPROFILEgb_ANALYST.Controls.Add(this.txtProfileUserFullName_Analyst);
             this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(12, 158);
             this.USERPROFILEgb_ANALYST.Name = "USERPROFILEgb_ANALYST";
-            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 519);
+            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 466);
             this.USERPROFILEgb_ANALYST.TabIndex = 94;
             this.USERPROFILEgb_ANALYST.TabStop = false;
             // 
@@ -144,7 +144,7 @@
             this.btnProfileNotifications_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfileNotifications_Analyst.Location = new System.Drawing.Point(6, 462);
             this.btnProfileNotifications_Analyst.Name = "btnProfileNotifications_Analyst";
-            this.btnProfileNotifications_Analyst.Size = new System.Drawing.Size(383, 37);
+            this.btnProfileNotifications_Analyst.Size = new System.Drawing.Size(0, 0);
             this.btnProfileNotifications_Analyst.TabIndex = 6;
             this.btnProfileNotifications_Analyst.Text = "NOTIFICATIONS";
             this.btnProfileNotifications_Analyst.UseVisualStyleBackColor = true;
@@ -203,7 +203,7 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.picProfilePersonalInfoPhoto_Analyst);
             this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(442, 158);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 746);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 695);
             this.PINFORMATIONgb_ANALYST.TabIndex = 92;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             // 
@@ -211,7 +211,7 @@
             // 
             this.LOGINgroupBox6_ANALYST.Controls.Add(this.txtProfileLastLogin_Analyst);
             this.LOGINgroupBox6_ANALYST.Controls.Add(this.lblProfileLastLogin_Analyst);
-            this.LOGINgroupBox6_ANALYST.Location = new System.Drawing.Point(559, 581);
+            this.LOGINgroupBox6_ANALYST.Location = new System.Drawing.Point(550, 547);
             this.LOGINgroupBox6_ANALYST.Name = "LOGINgroupBox6_ANALYST";
             this.LOGINgroupBox6_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.LOGINgroupBox6_ANALYST.TabIndex = 53;
@@ -238,7 +238,7 @@
             // 
             this.ASSIGNEDgroupBox5_ANALYST.Controls.Add(this.txtProfileAssignedCases_Analyst);
             this.ASSIGNEDgroupBox5_ANALYST.Controls.Add(this.lblProfileAssignedCases_Analyst);
-            this.ASSIGNEDgroupBox5_ANALYST.Location = new System.Drawing.Point(287, 581);
+            this.ASSIGNEDgroupBox5_ANALYST.Location = new System.Drawing.Point(278, 547);
             this.ASSIGNEDgroupBox5_ANALYST.Name = "ASSIGNEDgroupBox5_ANALYST";
             this.ASSIGNEDgroupBox5_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.ASSIGNEDgroupBox5_ANALYST.TabIndex = 53;
@@ -265,7 +265,7 @@
             // 
             this.CREATEDgroupBox4_ANALYST.Controls.Add(this.txtProfileCreatedCases_Analyst);
             this.CREATEDgroupBox4_ANALYST.Controls.Add(this.lblProfileCreatedCases_Analyst);
-            this.CREATEDgroupBox4_ANALYST.Location = new System.Drawing.Point(15, 581);
+            this.CREATEDgroupBox4_ANALYST.Location = new System.Drawing.Point(6, 547);
             this.CREATEDgroupBox4_ANALYST.Name = "CREATEDgroupBox4_ANALYST";
             this.CREATEDgroupBox4_ANALYST.Size = new System.Drawing.Size(266, 142);
             this.CREATEDgroupBox4_ANALYST.TabIndex = 52;
@@ -474,7 +474,7 @@
             // 
             this.USERPROFILElbl_ANALYST.AutoSize = true;
             this.USERPROFILElbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(15, 114);
+            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(9, 114);
             this.USERPROFILElbl_ANALYST.Name = "USERPROFILElbl_ANALYST";
             this.USERPROFILElbl_ANALYST.Size = new System.Drawing.Size(129, 18);
             this.USERPROFILElbl_ANALYST.TabIndex = 91;
@@ -485,7 +485,7 @@
             this.grbLogo_User.Controls.Add(this.picCyberTrackLogo_User);
             this.grbLogo_User.Controls.Add(this.lblIncidentManagementSystem_User);
             this.grbLogo_User.Controls.Add(this.lblCyberTrack_User);
-            this.grbLogo_User.Location = new System.Drawing.Point(18, 12);
+            this.grbLogo_User.Location = new System.Drawing.Point(12, 12);
             this.grbLogo_User.Name = "grbLogo_User";
             this.grbLogo_User.Size = new System.Drawing.Size(754, 74);
             this.grbLogo_User.TabIndex = 97;
@@ -529,7 +529,7 @@
             this.grbPermissions_User.Controls.Add(this.lblUpdate_User);
             this.grbPermissions_User.Controls.Add(this.lblCreate_User);
             this.grbPermissions_User.Controls.Add(this.lblPermissions_User);
-            this.grbPermissions_User.Location = new System.Drawing.Point(778, 12);
+            this.grbPermissions_User.Location = new System.Drawing.Point(772, 12);
             this.grbPermissions_User.Name = "grbPermissions_User";
             this.grbPermissions_User.Size = new System.Drawing.Size(311, 74);
             this.grbPermissions_User.TabIndex = 95;
@@ -554,7 +554,7 @@
             this.txtUpdate_User.ReadOnly = true;
             this.txtUpdate_User.Size = new System.Drawing.Size(47, 20);
             this.txtUpdate_User.TabIndex = 24;
-            this.txtUpdate_User.Text = "YES";
+            this.txtUpdate_User.Text = "NO";
             this.txtUpdate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCreate_User
@@ -610,7 +610,7 @@
             this.grbUserLogo_User.Controls.Add(this.picUserPhoto_User);
             this.grbUserLogo_User.Controls.Add(this.lblUserRole_User);
             this.grbUserLogo_User.Controls.Add(this.lblUserName_User);
-            this.grbUserLogo_User.Location = new System.Drawing.Point(1095, 12);
+            this.grbUserLogo_User.Location = new System.Drawing.Point(1089, 12);
             this.grbUserLogo_User.Name = "grbUserLogo_User";
             this.grbUserLogo_User.Size = new System.Drawing.Size(183, 74);
             this.grbUserLogo_User.TabIndex = 96;
@@ -651,7 +651,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.ClientSize = new System.Drawing.Size(1284, 861);
             this.Controls.Add(this.grbLogo_User);
             this.Controls.Add(this.grbPermissions_User);
             this.Controls.Add(this.grbUserLogo_User);

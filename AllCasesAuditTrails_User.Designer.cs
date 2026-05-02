@@ -31,10 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllCasesAuditTrails_User));
             this.SEWMA_ANALYST = new System.Windows.Forms.GroupBox();
             this.AFFECTEDSYSgb_ANALYST = new System.Windows.Forms.GroupBox();
-            this.dgvAllCasesAffectedSystems_Analyst = new System.Windows.Forms.DataGridView();
-            this.chk_AllCasesEmailServer_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.chkAllCasesEmployeeWorkstation_Analyst = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.cmbAllCasesImpactLevel_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lblAllCasesAffectedSystems_Analyst = new System.Windows.Forms.Label();
             this.groupBox4_ANALYST = new System.Windows.Forms.GroupBox();
             this.dgvAllCasesCaseInformation_Analyst = new System.Windows.Forms.DataGridView();
@@ -85,9 +81,11 @@
             this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cmbAllCasesTypeOfSystem_Analyst = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewComboBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.SEWMA_ANALYST.SuspendLayout();
             this.AFFECTEDSYSgb_ANALYST.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).BeginInit();
             this.groupBox4_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).BeginInit();
             this.groupBox3_ANALYST.SuspendLayout();
@@ -99,6 +97,7 @@
             this.grbPermissions_User.SuspendLayout();
             this.grbUserLogo_User.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // SEWMA_ANALYST
@@ -126,49 +125,13 @@
             // 
             // AFFECTEDSYSgb_ANALYST
             // 
-            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.dgvAllCasesAffectedSystems_Analyst);
+            this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.dataGridView1);
             this.AFFECTEDSYSgb_ANALYST.Controls.Add(this.lblAllCasesAffectedSystems_Analyst);
             this.AFFECTEDSYSgb_ANALYST.Location = new System.Drawing.Point(688, 650);
             this.AFFECTEDSYSgb_ANALYST.Name = "AFFECTEDSYSgb_ANALYST";
             this.AFFECTEDSYSgb_ANALYST.Size = new System.Drawing.Size(559, 204);
             this.AFFECTEDSYSgb_ANALYST.TabIndex = 64;
             this.AFFECTEDSYSgb_ANALYST.TabStop = false;
-            // 
-            // dgvAllCasesAffectedSystems_Analyst
-            // 
-            this.dgvAllCasesAffectedSystems_Analyst.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAllCasesAffectedSystems_Analyst.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.chk_AllCasesEmailServer_Analyst,
-            this.chkAllCasesEmployeeWorkstation_Analyst,
-            this.cmbAllCasesImpactLevel_Analyst});
-            this.dgvAllCasesAffectedSystems_Analyst.Location = new System.Drawing.Point(7, 47);
-            this.dgvAllCasesAffectedSystems_Analyst.Name = "dgvAllCasesAffectedSystems_Analyst";
-            this.dgvAllCasesAffectedSystems_Analyst.Size = new System.Drawing.Size(544, 150);
-            this.dgvAllCasesAffectedSystems_Analyst.TabIndex = 30;
-            // 
-            // chk_AllCasesEmailServer_Analyst
-            // 
-            this.chk_AllCasesEmailServer_Analyst.FillWeight = 250F;
-            this.chk_AllCasesEmailServer_Analyst.HeaderText = "Email Server";
-            this.chk_AllCasesEmailServer_Analyst.Name = "chk_AllCasesEmailServer_Analyst";
-            this.chk_AllCasesEmailServer_Analyst.ReadOnly = true;
-            this.chk_AllCasesEmailServer_Analyst.Width = 175;
-            // 
-            // chkAllCasesEmployeeWorkstation_Analyst
-            // 
-            this.chkAllCasesEmployeeWorkstation_Analyst.FillWeight = 250F;
-            this.chkAllCasesEmployeeWorkstation_Analyst.HeaderText = "Employee Workstation";
-            this.chkAllCasesEmployeeWorkstation_Analyst.Name = "chkAllCasesEmployeeWorkstation_Analyst";
-            this.chkAllCasesEmployeeWorkstation_Analyst.ReadOnly = true;
-            this.chkAllCasesEmployeeWorkstation_Analyst.Width = 175;
-            // 
-            // cmbAllCasesImpactLevel_Analyst
-            // 
-            this.cmbAllCasesImpactLevel_Analyst.FillWeight = 250F;
-            this.cmbAllCasesImpactLevel_Analyst.HeaderText = "Impact Level";
-            this.cmbAllCasesImpactLevel_Analyst.Name = "cmbAllCasesImpactLevel_Analyst";
-            this.cmbAllCasesImpactLevel_Analyst.ReadOnly = true;
-            this.cmbAllCasesImpactLevel_Analyst.Width = 150;
             // 
             // lblAllCasesAffectedSystems_Analyst
             // 
@@ -549,7 +512,7 @@
             this.txtUpdate_User.ReadOnly = true;
             this.txtUpdate_User.Size = new System.Drawing.Size(47, 20);
             this.txtUpdate_User.TabIndex = 24;
-            this.txtUpdate_User.Text = "YES";
+            this.txtUpdate_User.Text = "NO";
             this.txtUpdate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCreate_User
@@ -642,6 +605,34 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cmbAllCasesTypeOfSystem_Analyst,
+            this.dataGridViewComboBoxColumn1});
+            this.dataGridView1.Location = new System.Drawing.Point(7, 47);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(544, 150);
+            this.dataGridView1.TabIndex = 32;
+            // 
+            // cmbAllCasesTypeOfSystem_Analyst
+            // 
+            this.cmbAllCasesTypeOfSystem_Analyst.FillWeight = 250F;
+            this.cmbAllCasesTypeOfSystem_Analyst.HeaderText = "Type of System";
+            this.cmbAllCasesTypeOfSystem_Analyst.Name = "cmbAllCasesTypeOfSystem_Analyst";
+            this.cmbAllCasesTypeOfSystem_Analyst.ReadOnly = true;
+            this.cmbAllCasesTypeOfSystem_Analyst.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cmbAllCasesTypeOfSystem_Analyst.Width = 251;
+            // 
+            // dataGridViewComboBoxColumn1
+            // 
+            this.dataGridViewComboBoxColumn1.FillWeight = 250F;
+            this.dataGridViewComboBoxColumn1.HeaderText = "Impact Level";
+            this.dataGridViewComboBoxColumn1.Name = "dataGridViewComboBoxColumn1";
+            this.dataGridViewComboBoxColumn1.ReadOnly = true;
+            this.dataGridViewComboBoxColumn1.Width = 250;
+            // 
             // AllCasesAuditTrails_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -659,7 +650,6 @@
             this.SEWMA_ANALYST.PerformLayout();
             this.AFFECTEDSYSgb_ANALYST.ResumeLayout(false);
             this.AFFECTEDSYSgb_ANALYST.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesAffectedSystems_Analyst)).EndInit();
             this.groupBox4_ANALYST.ResumeLayout(false);
             this.groupBox4_ANALYST.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCasesCaseInformation_Analyst)).EndInit();
@@ -678,6 +668,7 @@
             this.grbUserLogo_User.ResumeLayout(false);
             this.grbUserLogo_User.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -686,10 +677,6 @@
 
         private System.Windows.Forms.GroupBox SEWMA_ANALYST;
         private System.Windows.Forms.GroupBox AFFECTEDSYSgb_ANALYST;
-        private System.Windows.Forms.DataGridView dgvAllCasesAffectedSystems_Analyst;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn chk_AllCasesEmailServer_Analyst;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn chkAllCasesEmployeeWorkstation_Analyst;
-        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesImpactLevel_Analyst;
         private System.Windows.Forms.Label lblAllCasesAffectedSystems_Analyst;
         private System.Windows.Forms.GroupBox groupBox4_ANALYST;
         private System.Windows.Forms.DataGridView dgvAllCasesCaseInformation_Analyst;
@@ -740,5 +727,8 @@
         private System.Windows.Forms.PictureBox picUserPhoto_User;
         private System.Windows.Forms.Label lblUserRole_User;
         private System.Windows.Forms.Label lblUserName_User;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewComboBoxColumn cmbAllCasesTypeOfSystem_Analyst;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewComboBoxColumn1;
     }
 }

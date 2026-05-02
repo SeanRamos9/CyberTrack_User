@@ -377,6 +377,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImage = global::CyberTrack_User.Properties.Resources.UserIcon;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.ErrorImage = null;
+            this.pictureBox3.InitialImage = null;
             this.pictureBox3.Location = new System.Drawing.Point(27, 19);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 42);
@@ -480,7 +485,7 @@
             this.txtUpdate_User.ReadOnly = true;
             this.txtUpdate_User.Size = new System.Drawing.Size(47, 20);
             this.txtUpdate_User.TabIndex = 24;
-            this.txtUpdate_User.Text = "YES";
+            this.txtUpdate_User.Text = "NO";
             this.txtUpdate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCreate_User

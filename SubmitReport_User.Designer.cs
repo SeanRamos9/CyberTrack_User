@@ -166,7 +166,7 @@
             this.txtUpdate_User.ReadOnly = true;
             this.txtUpdate_User.Size = new System.Drawing.Size(47, 20);
             this.txtUpdate_User.TabIndex = 24;
-            this.txtUpdate_User.Text = "YES";
+            this.txtUpdate_User.Text = "NO";
             this.txtUpdate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCreate_User

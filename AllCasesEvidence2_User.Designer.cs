@@ -297,7 +297,7 @@
             this.txtUpdate_Administrator.ReadOnly = true;
             this.txtUpdate_Administrator.Size = new System.Drawing.Size(47, 20);
             this.txtUpdate_Administrator.TabIndex = 24;
-            this.txtUpdate_Administrator.Text = "YES";
+            this.txtUpdate_Administrator.Text = "NO";
             this.txtUpdate_Administrator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtCreate_Administrator
@@ -432,9 +432,9 @@
             this.lblUserRole_Administrator.AutoSize = true;
             this.lblUserRole_Administrator.Location = new System.Drawing.Point(71, 47);
             this.lblUserRole_Administrator.Name = "lblUserRole_Administrator";
-            this.lblUserRole_Administrator.Size = new System.Drawing.Size(56, 13);
+            this.lblUserRole_Administrator.Size = new System.Drawing.Size(37, 13);
             this.lblUserRole_Administrator.TabIndex = 5;
-            this.lblUserRole_Administrator.Text = "ANALYST";
+            this.lblUserRole_Administrator.Text = "USER";
             // 
             // txtAllCasesSize_Administrator
             // 
