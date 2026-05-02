@@ -16,5 +16,10 @@ namespace CyberTrack_User
         {
             InitializeComponent();
         }
+
+        private void DROPVILESgb_User_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
