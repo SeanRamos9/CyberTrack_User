@@ -29,773 +29,698 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SubmitReport_User));
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.grbLogo_User = new System.Windows.Forms.GroupBox();
+            this.picCyberTrackLogo_User = new System.Windows.Forms.PictureBox();
+            this.lblIncidentManagementSystem_User = new System.Windows.Forms.Label();
+            this.lblCyberTrack_User = new System.Windows.Forms.Label();
+            this.grbPermissions_User = new System.Windows.Forms.GroupBox();
+            this.txtDelete_User = new System.Windows.Forms.TextBox();
+            this.txtUpdate_User = new System.Windows.Forms.TextBox();
+            this.txtCreate_User = new System.Windows.Forms.TextBox();
+            this.lblDelete_User = new System.Windows.Forms.Label();
+            this.lblUpdate_User = new System.Windows.Forms.Label();
+            this.lblCreate_User = new System.Windows.Forms.Label();
+            this.lblPermissions_User = new System.Windows.Forms.Label();
+            this.grbUserLogo_User = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
+            this.lblUserRole_User = new System.Windows.Forms.Label();
+            this.lblUserName_User = new System.Windows.Forms.Label();
+            this.groupBox6_Analyst = new System.Windows.Forms.GroupBox();
+            this.groupBox3_Analyst = new System.Windows.Forms.GroupBox();
+            this.txtSubmitReportImpactLevel_Analyst = new System.Windows.Forms.TextBox();
+            this.lblSubmitReportListAll_Analyst = new System.Windows.Forms.Label();
+            this.btnSubmitReportCancel_Analyst = new System.Windows.Forms.Button();
+            this.btnSubmitReportSubmitReport_Analyst = new System.Windows.Forms.Button();
+            this.txtSubmitReportDepartment_Analyst = new System.Windows.Forms.TextBox();
+            this.txtSubmitReportFullName_Analyst = new System.Windows.Forms.TextBox();
+            this.lblSubmitReportDepartment_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportFullName_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportReporterInfo_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportImpactLevel_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportAffectedSystems_Analyst = new System.Windows.Forms.Label();
+            this.txtSubmitReportAffectedSystems_Analyst = new System.Windows.Forms.TextBox();
+            this.cmbSubmitReportCategory_Analyst = new System.Windows.Forms.ComboBox();
+            this.cmbSubmitReportSeverity_Analyst = new System.Windows.Forms.ComboBox();
+            this.lblSubmitReportCategory_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportSeverity_Analyst = new System.Windows.Forms.Label();
+            this.txtSubmitReportDescription_Analyst = new System.Windows.Forms.TextBox();
+            this.lblSubmitReportDescription_Analyst = new System.Windows.Forms.Label();
+            this.txtSubmitReportIncidentTitle_Analyst = new System.Windows.Forms.TextBox();
+            this.lblSubmitReportIncidentTitle_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportProvideInfo_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportIncidentDetails_Analyst = new System.Windows.Forms.Label();
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst = new System.Windows.Forms.PictureBox();
+            this.lblSubmitReportSubmitIncidentReport_Analyst = new System.Windows.Forms.Label();
+            this.groupBox4_Analyst = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.lblSubmitReportPreserveEvi_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportFollowUp_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportBeSpecific_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportDIA_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportActQuickly_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportReportGuide_Analyst = new System.Windows.Forms.Label();
+            this.lblSubmitReportReportIncident_Analyst = new System.Windows.Forms.Label();
+            this.grbLogo_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).BeginInit();
+            this.grbPermissions_User.SuspendLayout();
+            this.grbUserLogo_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
+            this.groupBox6_Analyst.SuspendLayout();
+            this.groupBox3_Analyst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).BeginInit();
+            this.groupBox4_Analyst.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.groupBox11.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox3
+            // grbLogo_User
             // 
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.label28);
-            this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.button4);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.textBox4);
-            this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.label20);
-            this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.comboBox2);
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Location = new System.Drawing.Point(96, 125);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox3.Size = new System.Drawing.Size(1194, 931);
-            this.groupBox3.TabIndex = 33;
-            this.groupBox3.TabStop = false;
+            this.grbLogo_User.Controls.Add(this.picCyberTrackLogo_User);
+            this.grbLogo_User.Controls.Add(this.lblIncidentManagementSystem_User);
+            this.grbLogo_User.Controls.Add(this.lblCyberTrack_User);
+            this.grbLogo_User.Location = new System.Drawing.Point(12, 12);
+            this.grbLogo_User.Name = "grbLogo_User";
+            this.grbLogo_User.Size = new System.Drawing.Size(754, 74);
+            this.grbLogo_User.TabIndex = 93;
+            this.grbLogo_User.TabStop = false;
             // 
-            // textBox6
+            // picCyberTrackLogo_User
             // 
-            this.textBox6.Location = new System.Drawing.Point(43, 613);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(772, 26);
-            this.textBox6.TabIndex = 34;
-            this.textBox6.Text = " e.g., Organization-wide, Department-specific, Individual user";
+            this.picCyberTrackLogo_User.Image = ((System.Drawing.Image)(resources.GetObject("picCyberTrackLogo_User.Image")));
+            this.picCyberTrackLogo_User.Location = new System.Drawing.Point(6, 19);
+            this.picCyberTrackLogo_User.Name = "picCyberTrackLogo_User";
+            this.picCyberTrackLogo_User.Size = new System.Drawing.Size(44, 42);
+            this.picCyberTrackLogo_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCyberTrackLogo_User.TabIndex = 25;
+            this.picCyberTrackLogo_User.TabStop = false;
             // 
-            // label28
+            // lblIncidentManagementSystem_User
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(43, 555);
-            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(384, 17);
-            this.label28.TabIndex = 33;
-            this.label28.Text = "List all systems, servers, or devices affected by this incident";
+            this.lblIncidentManagementSystem_User.AutoSize = true;
+            this.lblIncidentManagementSystem_User.Location = new System.Drawing.Point(60, 47);
+            this.lblIncidentManagementSystem_User.Name = "lblIncidentManagementSystem_User";
+            this.lblIncidentManagementSystem_User.Size = new System.Drawing.Size(150, 13);
+            this.lblIncidentManagementSystem_User.TabIndex = 27;
+            this.lblIncidentManagementSystem_User.Text = "Incident Management Systtem";
             // 
-            // button5
+            // lblCyberTrack_User
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(924, 851);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(224, 63);
-            this.button5.TabIndex = 32;
-            this.button5.Text = "CANCEL";
-            this.button5.UseVisualStyleBackColor = true;
+            this.lblCyberTrack_User.AutoSize = true;
+            this.lblCyberTrack_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCyberTrack_User.Location = new System.Drawing.Point(57, 19);
+            this.lblCyberTrack_User.Name = "lblCyberTrack_User";
+            this.lblCyberTrack_User.Size = new System.Drawing.Size(119, 18);
+            this.lblCyberTrack_User.TabIndex = 26;
+            this.lblCyberTrack_User.Text = "CYBERTRACK";
             // 
-            // button4
+            // grbPermissions_User
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button4.Location = new System.Drawing.Point(44, 851);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(872, 63);
-            this.button4.TabIndex = 31;
-            this.button4.Text = "SUBMIT REPORT";
-            this.button4.UseVisualStyleBackColor = true;
+            this.grbPermissions_User.Controls.Add(this.txtDelete_User);
+            this.grbPermissions_User.Controls.Add(this.txtUpdate_User);
+            this.grbPermissions_User.Controls.Add(this.txtCreate_User);
+            this.grbPermissions_User.Controls.Add(this.lblDelete_User);
+            this.grbPermissions_User.Controls.Add(this.lblUpdate_User);
+            this.grbPermissions_User.Controls.Add(this.lblCreate_User);
+            this.grbPermissions_User.Controls.Add(this.lblPermissions_User);
+            this.grbPermissions_User.Location = new System.Drawing.Point(772, 12);
+            this.grbPermissions_User.Name = "grbPermissions_User";
+            this.grbPermissions_User.Size = new System.Drawing.Size(311, 74);
+            this.grbPermissions_User.TabIndex = 91;
+            this.grbPermissions_User.TabStop = false;
             // 
-            // textBox5
+            // txtDelete_User
             // 
-            this.textBox5.Location = new System.Drawing.Point(586, 802);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(559, 29);
-            this.textBox5.TabIndex = 30;
+            this.txtDelete_User.Location = new System.Drawing.Point(257, 40);
+            this.txtDelete_User.Multiline = true;
+            this.txtDelete_User.Name = "txtDelete_User";
+            this.txtDelete_User.ReadOnly = true;
+            this.txtDelete_User.Size = new System.Drawing.Size(47, 20);
+            this.txtDelete_User.TabIndex = 25;
+            this.txtDelete_User.Text = "NO";
+            this.txtDelete_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // txtUpdate_User
             // 
-            this.textBox4.Location = new System.Drawing.Point(44, 802);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(528, 29);
-            this.textBox4.TabIndex = 29;
+            this.txtUpdate_User.Location = new System.Drawing.Point(157, 40);
+            this.txtUpdate_User.Multiline = true;
+            this.txtUpdate_User.Name = "txtUpdate_User";
+            this.txtUpdate_User.ReadOnly = true;
+            this.txtUpdate_User.Size = new System.Drawing.Size(47, 20);
+            this.txtUpdate_User.TabIndex = 24;
+            this.txtUpdate_User.Text = "YES";
+            this.txtUpdate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label21
+            // txtCreate_User
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(581, 727);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(123, 25);
-            this.label21.TabIndex = 28;
-            this.label21.Text = "Department";
+            this.txtCreate_User.Location = new System.Drawing.Point(51, 40);
+            this.txtCreate_User.Multiline = true;
+            this.txtCreate_User.Name = "txtCreate_User";
+            this.txtCreate_User.ReadOnly = true;
+            this.txtCreate_User.Size = new System.Drawing.Size(47, 20);
+            this.txtCreate_User.TabIndex = 23;
+            this.txtCreate_User.Text = "YES";
+            this.txtCreate_User.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label20
+            // lblDelete_User
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(41, 727);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(109, 25);
-            this.label20.TabIndex = 27;
-            this.label20.Text = "Full Name";
+            this.lblDelete_User.AutoSize = true;
+            this.lblDelete_User.Location = new System.Drawing.Point(210, 43);
+            this.lblDelete_User.Name = "lblDelete_User";
+            this.lblDelete_User.Size = new System.Drawing.Size(41, 13);
+            this.lblDelete_User.TabIndex = 6;
+            this.lblDelete_User.Text = "Delete:";
             // 
-            // label19
+            // lblUpdate_User
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(41, 680);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(207, 25);
-            this.label19.TabIndex = 26;
-            this.label19.Text = "Reporter Information";
+            this.lblUpdate_User.AutoSize = true;
+            this.lblUpdate_User.Location = new System.Drawing.Point(106, 43);
+            this.lblUpdate_User.Name = "lblUpdate_User";
+            this.lblUpdate_User.Size = new System.Drawing.Size(45, 13);
+            this.lblUpdate_User.TabIndex = 5;
+            this.lblUpdate_User.Text = "Update:";
             // 
-            // label18
+            // lblCreate_User
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(42, 588);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(111, 20);
-            this.label18.TabIndex = 24;
-            this.label18.Text = "Impact Level";
+            this.lblCreate_User.AutoSize = true;
+            this.lblCreate_User.Location = new System.Drawing.Point(6, 43);
+            this.lblCreate_User.Name = "lblCreate_User";
+            this.lblCreate_User.Size = new System.Drawing.Size(41, 13);
+            this.lblCreate_User.TabIndex = 4;
+            this.lblCreate_User.Text = "Create:";
             // 
-            // label17
+            // lblPermissions_User
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(42, 496);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(151, 20);
-            this.label17.TabIndex = 23;
-            this.label17.Text = "Affected Systems";
+            this.lblPermissions_User.AutoSize = true;
+            this.lblPermissions_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPermissions_User.Location = new System.Drawing.Point(6, 16);
+            this.lblPermissions_User.Name = "lblPermissions_User";
+            this.lblPermissions_User.Size = new System.Drawing.Size(92, 16);
+            this.lblPermissions_User.TabIndex = 4;
+            this.lblPermissions_User.Text = "Permissions";
             // 
-            // textBox3
+            // grbUserLogo_User
             // 
-            this.textBox3.Location = new System.Drawing.Point(43, 521);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(770, 29);
-            this.textBox3.TabIndex = 22;
-            this.textBox3.Text = " e.g., Web Server, Database, Workstation ID";
+            this.grbUserLogo_User.Controls.Add(this.picUserPhoto_User);
+            this.grbUserLogo_User.Controls.Add(this.lblUserRole_User);
+            this.grbUserLogo_User.Controls.Add(this.lblUserName_User);
+            this.grbUserLogo_User.Location = new System.Drawing.Point(1089, 12);
+            this.grbUserLogo_User.Name = "grbUserLogo_User";
+            this.grbUserLogo_User.Size = new System.Drawing.Size(183, 74);
+            this.grbUserLogo_User.TabIndex = 92;
+            this.grbUserLogo_User.TabStop = false;
             // 
-            // comboBox2
+            // picUserPhoto_User
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
+            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_User.ErrorImage = null;
+            this.picUserPhoto_User.InitialImage = null;
+            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_User.Name = "picUserPhoto_User";
+            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_User.TabIndex = 5;
+            this.picUserPhoto_User.TabStop = false;
+            // 
+            // lblUserRole_User
+            // 
+            this.lblUserRole_User.AutoSize = true;
+            this.lblUserRole_User.Location = new System.Drawing.Point(71, 47);
+            this.lblUserRole_User.Name = "lblUserRole_User";
+            this.lblUserRole_User.Size = new System.Drawing.Size(37, 13);
+            this.lblUserRole_User.TabIndex = 5;
+            this.lblUserRole_User.Text = "USER";
+            // 
+            // lblUserName_User
+            // 
+            this.lblUserName_User.AutoSize = true;
+            this.lblUserName_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName_User.Location = new System.Drawing.Point(71, 19);
+            this.lblUserName_User.Name = "lblUserName_User";
+            this.lblUserName_User.Size = new System.Drawing.Size(99, 16);
+            this.lblUserName_User.TabIndex = 5;
+            this.lblUserName_User.Text = "Skibidi Toilet";
+            // 
+            // groupBox6_Analyst
+            // 
+            this.groupBox6_Analyst.Controls.Add(this.groupBox3_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.picSubmitReportSubmitIncidentReportProfile_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.lblSubmitReportSubmitIncidentReport_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.groupBox4_Analyst);
+            this.groupBox6_Analyst.Controls.Add(this.lblSubmitReportReportIncident_Analyst);
+            this.groupBox6_Analyst.Location = new System.Drawing.Point(12, 107);
+            this.groupBox6_Analyst.Name = "groupBox6_Analyst";
+            this.groupBox6_Analyst.Size = new System.Drawing.Size(1260, 957);
+            this.groupBox6_Analyst.TabIndex = 94;
+            this.groupBox6_Analyst.TabStop = false;
+            // 
+            // groupBox3_Analyst
+            // 
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportImpactLevel_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportListAll_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.btnSubmitReportCancel_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.btnSubmitReportSubmitReport_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportDepartment_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportFullName_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportDepartment_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportFullName_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportReporterInfo_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportImpactLevel_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportAffectedSystems_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportAffectedSystems_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.cmbSubmitReportCategory_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.cmbSubmitReportSeverity_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportCategory_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportSeverity_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportDescription_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportDescription_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.txtSubmitReportIncidentTitle_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportIncidentTitle_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportProvideInfo_Analyst);
+            this.groupBox3_Analyst.Controls.Add(this.lblSubmitReportIncidentDetails_Analyst);
+            this.groupBox3_Analyst.Location = new System.Drawing.Point(214, 94);
+            this.groupBox3_Analyst.Name = "groupBox3_Analyst";
+            this.groupBox3_Analyst.Size = new System.Drawing.Size(796, 605);
+            this.groupBox3_Analyst.TabIndex = 33;
+            this.groupBox3_Analyst.TabStop = false;
+            // 
+            // txtSubmitReportImpactLevel_Analyst
+            // 
+            this.txtSubmitReportImpactLevel_Analyst.Location = new System.Drawing.Point(29, 435);
+            this.txtSubmitReportImpactLevel_Analyst.Name = "txtSubmitReportImpactLevel_Analyst";
+            this.txtSubmitReportImpactLevel_Analyst.Size = new System.Drawing.Size(736, 20);
+            this.txtSubmitReportImpactLevel_Analyst.TabIndex = 34;
+            this.txtSubmitReportImpactLevel_Analyst.Text = " e.g., Organization-wide, Department-specific, Individual user";
+            // 
+            // lblSubmitReportListAll_Analyst
+            // 
+            this.lblSubmitReportListAll_Analyst.AutoSize = true;
+            this.lblSubmitReportListAll_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportListAll_Analyst.Location = new System.Drawing.Point(26, 391);
+            this.lblSubmitReportListAll_Analyst.Name = "lblSubmitReportListAll_Analyst";
+            this.lblSubmitReportListAll_Analyst.Size = new System.Drawing.Size(324, 15);
+            this.lblSubmitReportListAll_Analyst.TabIndex = 33;
+            this.lblSubmitReportListAll_Analyst.Text = "List all systems, servers, or devices affected by this incident";
+            // 
+            // btnSubmitReportCancel_Analyst
+            // 
+            this.btnSubmitReportCancel_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmitReportCancel_Analyst.Location = new System.Drawing.Point(616, 553);
+            this.btnSubmitReportCancel_Analyst.Name = "btnSubmitReportCancel_Analyst";
+            this.btnSubmitReportCancel_Analyst.Size = new System.Drawing.Size(149, 41);
+            this.btnSubmitReportCancel_Analyst.TabIndex = 32;
+            this.btnSubmitReportCancel_Analyst.Text = "CANCEL";
+            this.btnSubmitReportCancel_Analyst.UseVisualStyleBackColor = true;
+            // 
+            // btnSubmitReportSubmitReport_Analyst
+            // 
+            this.btnSubmitReportSubmitReport_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmitReportSubmitReport_Analyst.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSubmitReportSubmitReport_Analyst.Location = new System.Drawing.Point(29, 553);
+            this.btnSubmitReportSubmitReport_Analyst.Name = "btnSubmitReportSubmitReport_Analyst";
+            this.btnSubmitReportSubmitReport_Analyst.Size = new System.Drawing.Size(581, 41);
+            this.btnSubmitReportSubmitReport_Analyst.TabIndex = 31;
+            this.btnSubmitReportSubmitReport_Analyst.Text = "SUBMIT REPORT";
+            this.btnSubmitReportSubmitReport_Analyst.UseVisualStyleBackColor = true;
+            // 
+            // txtSubmitReportDepartment_Analyst
+            // 
+            this.txtSubmitReportDepartment_Analyst.Location = new System.Drawing.Point(391, 521);
+            this.txtSubmitReportDepartment_Analyst.Multiline = true;
+            this.txtSubmitReportDepartment_Analyst.Name = "txtSubmitReportDepartment_Analyst";
+            this.txtSubmitReportDepartment_Analyst.Size = new System.Drawing.Size(374, 20);
+            this.txtSubmitReportDepartment_Analyst.TabIndex = 30;
+            // 
+            // txtSubmitReportFullName_Analyst
+            // 
+            this.txtSubmitReportFullName_Analyst.Location = new System.Drawing.Point(29, 521);
+            this.txtSubmitReportFullName_Analyst.Multiline = true;
+            this.txtSubmitReportFullName_Analyst.Name = "txtSubmitReportFullName_Analyst";
+            this.txtSubmitReportFullName_Analyst.Size = new System.Drawing.Size(353, 20);
+            this.txtSubmitReportFullName_Analyst.TabIndex = 29;
+            // 
+            // lblSubmitReportDepartment_Analyst
+            // 
+            this.lblSubmitReportDepartment_Analyst.AutoSize = true;
+            this.lblSubmitReportDepartment_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportDepartment_Analyst.Location = new System.Drawing.Point(388, 491);
+            this.lblSubmitReportDepartment_Analyst.Name = "lblSubmitReportDepartment_Analyst";
+            this.lblSubmitReportDepartment_Analyst.Size = new System.Drawing.Size(87, 16);
+            this.lblSubmitReportDepartment_Analyst.TabIndex = 28;
+            this.lblSubmitReportDepartment_Analyst.Text = "Department";
+            // 
+            // lblSubmitReportFullName_Analyst
+            // 
+            this.lblSubmitReportFullName_Analyst.AutoSize = true;
+            this.lblSubmitReportFullName_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportFullName_Analyst.Location = new System.Drawing.Point(27, 491);
+            this.lblSubmitReportFullName_Analyst.Name = "lblSubmitReportFullName_Analyst";
+            this.lblSubmitReportFullName_Analyst.Size = new System.Drawing.Size(77, 16);
+            this.lblSubmitReportFullName_Analyst.TabIndex = 27;
+            this.lblSubmitReportFullName_Analyst.Text = "Full Name";
+            // 
+            // lblSubmitReportReporterInfo_Analyst
+            // 
+            this.lblSubmitReportReporterInfo_Analyst.AutoSize = true;
+            this.lblSubmitReportReporterInfo_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportReporterInfo_Analyst.Location = new System.Drawing.Point(27, 465);
+            this.lblSubmitReportReporterInfo_Analyst.Name = "lblSubmitReportReporterInfo_Analyst";
+            this.lblSubmitReportReporterInfo_Analyst.Size = new System.Drawing.Size(148, 16);
+            this.lblSubmitReportReporterInfo_Analyst.TabIndex = 26;
+            this.lblSubmitReportReporterInfo_Analyst.Text = "Reporter Information";
+            // 
+            // lblSubmitReportImpactLevel_Analyst
+            // 
+            this.lblSubmitReportImpactLevel_Analyst.AutoSize = true;
+            this.lblSubmitReportImpactLevel_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportImpactLevel_Analyst.Location = new System.Drawing.Point(26, 416);
+            this.lblSubmitReportImpactLevel_Analyst.Name = "lblSubmitReportImpactLevel_Analyst";
+            this.lblSubmitReportImpactLevel_Analyst.Size = new System.Drawing.Size(95, 16);
+            this.lblSubmitReportImpactLevel_Analyst.TabIndex = 24;
+            this.lblSubmitReportImpactLevel_Analyst.Text = "Impact Level";
+            // 
+            // lblSubmitReportAffectedSystems_Analyst
+            // 
+            this.lblSubmitReportAffectedSystems_Analyst.AutoSize = true;
+            this.lblSubmitReportAffectedSystems_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportAffectedSystems_Analyst.Location = new System.Drawing.Point(26, 349);
+            this.lblSubmitReportAffectedSystems_Analyst.Name = "lblSubmitReportAffectedSystems_Analyst";
+            this.lblSubmitReportAffectedSystems_Analyst.Size = new System.Drawing.Size(127, 16);
+            this.lblSubmitReportAffectedSystems_Analyst.TabIndex = 23;
+            this.lblSubmitReportAffectedSystems_Analyst.Text = "Affected Systems";
+            // 
+            // txtSubmitReportAffectedSystems_Analyst
+            // 
+            this.txtSubmitReportAffectedSystems_Analyst.Location = new System.Drawing.Point(29, 368);
+            this.txtSubmitReportAffectedSystems_Analyst.Multiline = true;
+            this.txtSubmitReportAffectedSystems_Analyst.Name = "txtSubmitReportAffectedSystems_Analyst";
+            this.txtSubmitReportAffectedSystems_Analyst.Size = new System.Drawing.Size(736, 20);
+            this.txtSubmitReportAffectedSystems_Analyst.TabIndex = 22;
+            this.txtSubmitReportAffectedSystems_Analyst.Text = " e.g., Web Server, Database, Workstation ID";
+            // 
+            // cmbSubmitReportCategory_Analyst
+            // 
+            this.cmbSubmitReportCategory_Analyst.FormattingEnabled = true;
+            this.cmbSubmitReportCategory_Analyst.Items.AddRange(new object[] {
             "Malware",
             "Phishing",
             "Data Breach",
             "Unauthorized Access",
             "DDOS Attack",
             "Other"});
-            this.comboBox2.Location = new System.Drawing.Point(43, 447);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(380, 28);
-            this.comboBox2.TabIndex = 21;
+            this.cmbSubmitReportCategory_Analyst.Location = new System.Drawing.Point(391, 321);
+            this.cmbSubmitReportCategory_Analyst.Name = "cmbSubmitReportCategory_Analyst";
+            this.cmbSubmitReportCategory_Analyst.Size = new System.Drawing.Size(374, 21);
+            this.cmbSubmitReportCategory_Analyst.TabIndex = 21;
             // 
-            // comboBox1
+            // cmbSubmitReportSeverity_Analyst
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbSubmitReportSeverity_Analyst.FormattingEnabled = true;
+            this.cmbSubmitReportSeverity_Analyst.Items.AddRange(new object[] {
             "LOW - Minor Issue",
             "MEDIUM - Moderate Concern",
             "HIGH - Significant Risk",
             "CRITICAL - Immediate Threat"});
-            this.comboBox1.Location = new System.Drawing.Point(435, 447);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(380, 28);
-            this.comboBox1.TabIndex = 20;
+            this.cmbSubmitReportSeverity_Analyst.Location = new System.Drawing.Point(29, 321);
+            this.cmbSubmitReportSeverity_Analyst.Name = "cmbSubmitReportSeverity_Analyst";
+            this.cmbSubmitReportSeverity_Analyst.Size = new System.Drawing.Size(353, 21);
+            this.cmbSubmitReportSeverity_Analyst.TabIndex = 20;
             // 
-            // label16
+            // lblSubmitReportCategory_Analyst
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(431, 422);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(81, 20);
-            this.label16.TabIndex = 19;
-            this.label16.Text = "Category";
+            this.lblSubmitReportCategory_Analyst.AutoSize = true;
+            this.lblSubmitReportCategory_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportCategory_Analyst.Location = new System.Drawing.Point(388, 302);
+            this.lblSubmitReportCategory_Analyst.Name = "lblSubmitReportCategory_Analyst";
+            this.lblSubmitReportCategory_Analyst.Size = new System.Drawing.Size(70, 16);
+            this.lblSubmitReportCategory_Analyst.TabIndex = 19;
+            this.lblSubmitReportCategory_Analyst.Text = "Category";
             // 
-            // label15
+            // lblSubmitReportSeverity_Analyst
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(39, 422);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(73, 20);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "Severity";
+            this.lblSubmitReportSeverity_Analyst.AutoSize = true;
+            this.lblSubmitReportSeverity_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportSeverity_Analyst.Location = new System.Drawing.Point(26, 302);
+            this.lblSubmitReportSeverity_Analyst.Name = "lblSubmitReportSeverity_Analyst";
+            this.lblSubmitReportSeverity_Analyst.Size = new System.Drawing.Size(64, 16);
+            this.lblSubmitReportSeverity_Analyst.TabIndex = 18;
+            this.lblSubmitReportSeverity_Analyst.Text = "Severity";
             // 
-            // textBox2
+            // txtSubmitReportDescription_Analyst
             // 
-            this.textBox2.Location = new System.Drawing.Point(43, 241);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(771, 156);
-            this.textBox2.TabIndex = 17;
+            this.txtSubmitReportDescription_Analyst.Location = new System.Drawing.Point(30, 186);
+            this.txtSubmitReportDescription_Analyst.Multiline = true;
+            this.txtSubmitReportDescription_Analyst.Name = "txtSubmitReportDescription_Analyst";
+            this.txtSubmitReportDescription_Analyst.Size = new System.Drawing.Size(736, 103);
+            this.txtSubmitReportDescription_Analyst.TabIndex = 17;
             // 
-            // label14
+            // lblSubmitReportDescription_Analyst
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(42, 216);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(100, 20);
-            this.label14.TabIndex = 16;
-            this.label14.Text = "Description";
+            this.lblSubmitReportDescription_Analyst.AutoSize = true;
+            this.lblSubmitReportDescription_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportDescription_Analyst.Location = new System.Drawing.Point(26, 167);
+            this.lblSubmitReportDescription_Analyst.Name = "lblSubmitReportDescription_Analyst";
+            this.lblSubmitReportDescription_Analyst.Size = new System.Drawing.Size(86, 16);
+            this.lblSubmitReportDescription_Analyst.TabIndex = 16;
+            this.lblSubmitReportDescription_Analyst.Text = "Description";
             // 
-            // textBox1
+            // txtSubmitReportIncidentTitle_Analyst
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 137);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(772, 49);
-            this.textBox1.TabIndex = 15;
+            this.txtSubmitReportIncidentTitle_Analyst.Location = new System.Drawing.Point(29, 116);
+            this.txtSubmitReportIncidentTitle_Analyst.Multiline = true;
+            this.txtSubmitReportIncidentTitle_Analyst.Name = "txtSubmitReportIncidentTitle_Analyst";
+            this.txtSubmitReportIncidentTitle_Analyst.Size = new System.Drawing.Size(736, 33);
+            this.txtSubmitReportIncidentTitle_Analyst.TabIndex = 15;
             // 
-            // label13
+            // lblSubmitReportIncidentTitle_Analyst
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(40, 110);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(126, 22);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "Incident Title";
+            this.lblSubmitReportIncidentTitle_Analyst.AutoSize = true;
+            this.lblSubmitReportIncidentTitle_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportIncidentTitle_Analyst.Location = new System.Drawing.Point(26, 88);
+            this.lblSubmitReportIncidentTitle_Analyst.Name = "lblSubmitReportIncidentTitle_Analyst";
+            this.lblSubmitReportIncidentTitle_Analyst.Size = new System.Drawing.Size(96, 16);
+            this.lblSubmitReportIncidentTitle_Analyst.TabIndex = 10;
+            this.lblSubmitReportIncidentTitle_Analyst.Text = "Incident Title";
             // 
-            // label12
+            // lblSubmitReportProvideInfo_Analyst
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(39, 62);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(406, 20);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "Provide a detailed information about the security incident";
+            this.lblSubmitReportProvideInfo_Analyst.AutoSize = true;
+            this.lblSubmitReportProvideInfo_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportProvideInfo_Analyst.Location = new System.Drawing.Point(26, 56);
+            this.lblSubmitReportProvideInfo_Analyst.Name = "lblSubmitReportProvideInfo_Analyst";
+            this.lblSubmitReportProvideInfo_Analyst.Size = new System.Drawing.Size(314, 15);
+            this.lblSubmitReportProvideInfo_Analyst.TabIndex = 14;
+            this.lblSubmitReportProvideInfo_Analyst.Text = "Provide a detailed information about the security incident";
             // 
-            // label11
+            // lblSubmitReportIncidentDetails_Analyst
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(39, 40);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(190, 22);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "INCIDENT DETAILS";
+            this.lblSubmitReportIncidentDetails_Analyst.AutoSize = true;
+            this.lblSubmitReportIncidentDetails_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportIncidentDetails_Analyst.Location = new System.Drawing.Point(26, 26);
+            this.lblSubmitReportIncidentDetails_Analyst.Name = "lblSubmitReportIncidentDetails_Analyst";
+            this.lblSubmitReportIncidentDetails_Analyst.Size = new System.Drawing.Size(157, 18);
+            this.lblSubmitReportIncidentDetails_Analyst.TabIndex = 14;
+            this.lblSubmitReportIncidentDetails_Analyst.Text = "INCIDENT DETAILS";
             // 
-            // label23
+            // picSubmitReportSubmitIncidentReportProfile_Analyst
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(9, 25);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(708, 29);
-            this.label23.TabIndex = 34;
-            this.label23.Text = "BE SPECIFIC: Include as much detail as possible about what you observed";
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImage")));
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.ErrorImage = null;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.InitialImage = null;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Location = new System.Drawing.Point(214, 19);
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Name = "picSubmitReportSubmitIncidentReportProfile_Analyst";
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.Size = new System.Drawing.Size(48, 42);
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabIndex = 30;
+            this.picSubmitReportSubmitIncidentReportProfile_Analyst.TabStop = false;
             // 
-            // groupBox4
+            // lblSubmitReportSubmitIncidentReport_Analyst
             // 
-            this.groupBox4.Controls.Add(this.groupBox5);
-            this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Location = new System.Drawing.Point(321, 1085);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Size = new System.Drawing.Size(1194, 360);
-            this.groupBox4.TabIndex = 34;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = " ";
+            this.lblSubmitReportSubmitIncidentReport_Analyst.AutoSize = true;
+            this.lblSubmitReportSubmitIncidentReport_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportSubmitIncidentReport_Analyst.Location = new System.Drawing.Point(268, 30);
+            this.lblSubmitReportSubmitIncidentReport_Analyst.Name = "lblSubmitReportSubmitIncidentReport_Analyst";
+            this.lblSubmitReportSubmitIncidentReport_Analyst.Size = new System.Drawing.Size(226, 18);
+            this.lblSubmitReportSubmitIncidentReport_Analyst.TabIndex = 31;
+            this.lblSubmitReportSubmitIncidentReport_Analyst.Text = "SUBMIT INCIDENT REPORT";
+            // 
+            // groupBox4_Analyst
+            // 
+            this.groupBox4_Analyst.Controls.Add(this.groupBox5);
+            this.groupBox4_Analyst.Controls.Add(this.lblSubmitReportReportGuide_Analyst);
+            this.groupBox4_Analyst.Location = new System.Drawing.Point(214, 705);
+            this.groupBox4_Analyst.Name = "groupBox4_Analyst";
+            this.groupBox4_Analyst.Size = new System.Drawing.Size(796, 234);
+            this.groupBox4_Analyst.TabIndex = 34;
+            this.groupBox4_Analyst.TabStop = false;
+            this.groupBox4_Analyst.Text = " ";
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label24);
-            this.groupBox5.Controls.Add(this.label27);
-            this.groupBox5.Controls.Add(this.label23);
-            this.groupBox5.Controls.Add(this.label26);
-            this.groupBox5.Controls.Add(this.label25);
-            this.groupBox5.Location = new System.Drawing.Point(9, 74);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox5.Controls.Add(this.lblSubmitReportPreserveEvi_Analyst);
+            this.groupBox5.Controls.Add(this.lblSubmitReportFollowUp_Analyst);
+            this.groupBox5.Controls.Add(this.lblSubmitReportBeSpecific_Analyst);
+            this.groupBox5.Controls.Add(this.lblSubmitReportDIA_Analyst);
+            this.groupBox5.Controls.Add(this.lblSubmitReportActQuickly_Analyst);
+            this.groupBox5.Location = new System.Drawing.Point(6, 48);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox5.Size = new System.Drawing.Size(1176, 263);
+            this.groupBox5.Size = new System.Drawing.Size(784, 171);
             this.groupBox5.TabIndex = 39;
             this.groupBox5.TabStop = false;
             // 
-            // label24
+            // lblSubmitReportPreserveEvi_Analyst
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(9, 68);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(758, 29);
-            this.label24.TabIndex = 35;
-            this.label24.Text = "PRESERVE EVIDENCE: Do not delete emails, files, or logs related to the incident";
+            this.lblSubmitReportPreserveEvi_Analyst.AutoSize = true;
+            this.lblSubmitReportPreserveEvi_Analyst.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportPreserveEvi_Analyst.Location = new System.Drawing.Point(6, 44);
+            this.lblSubmitReportPreserveEvi_Analyst.Name = "lblSubmitReportPreserveEvi_Analyst";
+            this.lblSubmitReportPreserveEvi_Analyst.Size = new System.Drawing.Size(512, 20);
+            this.lblSubmitReportPreserveEvi_Analyst.TabIndex = 35;
+            this.lblSubmitReportPreserveEvi_Analyst.Text = "PRESERVE EVIDENCE: Do not delete emails, files, or logs related to the incident";
             // 
-            // label27
+            // lblSubmitReportFollowUp_Analyst
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(9, 205);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(729, 29);
-            this.label27.TabIndex = 38;
-            this.label27.Text = "FOLLOW UP: You will receive a case ID and can track progress in the system";
+            this.lblSubmitReportFollowUp_Analyst.AutoSize = true;
+            this.lblSubmitReportFollowUp_Analyst.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportFollowUp_Analyst.Location = new System.Drawing.Point(6, 133);
+            this.lblSubmitReportFollowUp_Analyst.Name = "lblSubmitReportFollowUp_Analyst";
+            this.lblSubmitReportFollowUp_Analyst.Size = new System.Drawing.Size(484, 20);
+            this.lblSubmitReportFollowUp_Analyst.TabIndex = 38;
+            this.lblSubmitReportFollowUp_Analyst.Text = "FOLLOW UP: You will receive a case ID and can track progress in the system";
             // 
-            // label26
+            // lblSubmitReportBeSpecific_Analyst
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(9, 160);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(719, 29);
-            this.label26.TabIndex = 37;
-            this.label26.Text = "DON\'T INVESTIGATE ALONE: Let the security team handle the investigation";
+            this.lblSubmitReportBeSpecific_Analyst.AutoSize = true;
+            this.lblSubmitReportBeSpecific_Analyst.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportBeSpecific_Analyst.Location = new System.Drawing.Point(6, 16);
+            this.lblSubmitReportBeSpecific_Analyst.Name = "lblSubmitReportBeSpecific_Analyst";
+            this.lblSubmitReportBeSpecific_Analyst.Size = new System.Drawing.Size(475, 20);
+            this.lblSubmitReportBeSpecific_Analyst.TabIndex = 34;
+            this.lblSubmitReportBeSpecific_Analyst.Text = "BE SPECIFIC: Include as much detail as possible about what you observed";
             // 
-            // label25
+            // lblSubmitReportDIA_Analyst
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(9, 115);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(608, 29);
-            this.label25.TabIndex = 36;
-            this.label25.Text = "ACT QUICKLY: Report incidents as soon as they are discovered";
+            this.lblSubmitReportDIA_Analyst.AutoSize = true;
+            this.lblSubmitReportDIA_Analyst.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportDIA_Analyst.Location = new System.Drawing.Point(6, 104);
+            this.lblSubmitReportDIA_Analyst.Name = "lblSubmitReportDIA_Analyst";
+            this.lblSubmitReportDIA_Analyst.Size = new System.Drawing.Size(479, 20);
+            this.lblSubmitReportDIA_Analyst.TabIndex = 37;
+            this.lblSubmitReportDIA_Analyst.Text = "DON\'T INVESTIGATE ALONE: Let the security team handle the investigation";
             // 
-            // label22
+            // lblSubmitReportActQuickly_Analyst
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(411, 25);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(381, 42);
-            this.label22.TabIndex = 33;
-            this.label22.Text = "REPORTING GUIDELINES";
+            this.lblSubmitReportActQuickly_Analyst.AutoSize = true;
+            this.lblSubmitReportActQuickly_Analyst.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportActQuickly_Analyst.Location = new System.Drawing.Point(6, 75);
+            this.lblSubmitReportActQuickly_Analyst.Name = "lblSubmitReportActQuickly_Analyst";
+            this.lblSubmitReportActQuickly_Analyst.Size = new System.Drawing.Size(402, 20);
+            this.lblSubmitReportActQuickly_Analyst.TabIndex = 36;
+            this.lblSubmitReportActQuickly_Analyst.Text = "ACT QUICKLY: Report incidents as soon as they are discovered";
             // 
-            // pictureBox3
+            // lblSubmitReportReportGuide_Analyst
             // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(96, 29);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(72, 65);
-            this.pictureBox3.TabIndex = 30;
-            this.pictureBox3.TabStop = false;
+            this.lblSubmitReportReportGuide_Analyst.AutoSize = true;
+            this.lblSubmitReportReportGuide_Analyst.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportReportGuide_Analyst.Location = new System.Drawing.Point(274, 16);
+            this.lblSubmitReportReportGuide_Analyst.Name = "lblSubmitReportReportGuide_Analyst";
+            this.lblSubmitReportReportGuide_Analyst.Size = new System.Drawing.Size(251, 29);
+            this.lblSubmitReportReportGuide_Analyst.TabIndex = 33;
+            this.lblSubmitReportReportGuide_Analyst.Text = "REPORTING GUIDELINES";
             // 
-            // groupBox6
+            // lblSubmitReportReportIncident_Analyst
             // 
-            this.groupBox6.Controls.Add(this.groupBox3);
-            this.groupBox6.Controls.Add(this.pictureBox3);
-            this.groupBox6.Controls.Add(this.label9);
-            this.groupBox6.Controls.Add(this.groupBox4);
-            this.groupBox6.Controls.Add(this.label10);
-            this.groupBox6.Location = new System.Drawing.Point(12, 142);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox6.Size = new System.Drawing.Size(1896, 1472);
-            this.groupBox6.TabIndex = 39;
-            this.groupBox6.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(176, 53);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(294, 25);
-            this.label9.TabIndex = 31;
-            this.label9.Text = "SUBMIT INCIDENT REPORT";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(92, 99);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(363, 20);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Report a cybersecurity incident or security concern";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.groupBox8);
-            this.groupBox9.Controls.Add(this.groupBox10);
-            this.groupBox9.Controls.Add(this.groupBox11);
-            this.groupBox9.Location = new System.Drawing.Point(12, 3);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(1290, 147);
-            this.groupBox9.TabIndex = 54;
-            this.groupBox9.TabStop = false;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.pictureBox4);
-            this.groupBox8.Controls.Add(this.label29);
-            this.groupBox8.Controls.Add(this.label30);
-            this.groupBox8.Location = new System.Drawing.Point(8, 34);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox8.Size = new System.Drawing.Size(653, 95);
-            this.groupBox8.TabIndex = 46;
-            this.groupBox8.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(12, 20);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(66, 65);
-            this.pictureBox4.TabIndex = 25;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(86, 60);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(226, 20);
-            this.label29.TabIndex = 27;
-            this.label29.Text = "Incident Management Systtem";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(86, 29);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(144, 22);
-            this.label30.TabIndex = 26;
-            this.label30.Text = "CYBERTRACK";
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.pictureBox5);
-            this.groupBox10.Controls.Add(this.label31);
-            this.groupBox10.Controls.Add(this.label32);
-            this.groupBox10.Location = new System.Drawing.Point(1051, 34);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox10.Size = new System.Drawing.Size(206, 99);
-            this.groupBox10.TabIndex = 45;
-            this.groupBox10.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.ErrorImage = null;
-            this.pictureBox5.InitialImage = null;
-            this.pictureBox5.Location = new System.Drawing.Point(8, 24);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(66, 65);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(83, 62);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(46, 17);
-            this.label31.TabIndex = 5;
-            this.label31.Text = "USER";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(82, 34);
-            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(111, 20);
-            this.label32.TabIndex = 5;
-            this.label32.Text = "Skibidi Toilet";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.textBox30);
-            this.groupBox11.Controls.Add(this.textBox31);
-            this.groupBox11.Controls.Add(this.textBox32);
-            this.groupBox11.Controls.Add(this.label33);
-            this.groupBox11.Controls.Add(this.label34);
-            this.groupBox11.Controls.Add(this.label35);
-            this.groupBox11.Controls.Add(this.label36);
-            this.groupBox11.Location = new System.Drawing.Point(669, 34);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox11.Size = new System.Drawing.Size(374, 99);
-            this.groupBox11.TabIndex = 44;
-            this.groupBox11.TabStop = false;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(307, 55);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox30.Multiline = true;
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(54, 28);
-            this.textBox30.TabIndex = 25;
-            this.textBox30.Text = "NO";
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(190, 55);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox31.Multiline = true;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(52, 25);
-            this.textBox31.TabIndex = 24;
-            this.textBox31.Text = "YES";
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(62, 55);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox32.Multiline = true;
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(54, 24);
-            this.textBox32.TabIndex = 23;
-            this.textBox32.Text = "YES";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(250, 62);
-            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(53, 17);
-            this.label33.TabIndex = 6;
-            this.label33.Text = "Delete:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(124, 60);
-            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(58, 17);
-            this.label34.TabIndex = 5;
-            this.label34.Text = "Update:";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(9, 59);
-            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(54, 17);
-            this.label35.TabIndex = 4;
-            this.label35.Text = "Create:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(9, 25);
-            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(95, 17);
-            this.label36.TabIndex = 4;
-            this.label36.Text = "Permissions";
+            this.lblSubmitReportReportIncident_Analyst.AutoSize = true;
+            this.lblSubmitReportReportIncident_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubmitReportReportIncident_Analyst.Location = new System.Drawing.Point(214, 64);
+            this.lblSubmitReportReportIncident_Analyst.Name = "lblSubmitReportReportIncident_Analyst";
+            this.lblSubmitReportReportIncident_Analyst.Size = new System.Drawing.Size(278, 15);
+            this.lblSubmitReportReportIncident_Analyst.TabIndex = 32;
+            this.lblSubmitReportReportIncident_Analyst.Text = "Report a cybersecurity incident or security concern";
             // 
             // SubmitReport_User
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1278, 1044);
-            this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.groupBox6);
+            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.Controls.Add(this.groupBox6_Analyst);
+            this.Controls.Add(this.grbLogo_User);
+            this.Controls.Add(this.grbPermissions_User);
+            this.Controls.Add(this.grbUserLogo_User);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SubmitReport_User";
             this.Text = "SubmitForm";
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.grbLogo_User.ResumeLayout(false);
+            this.grbLogo_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCyberTrackLogo_User)).EndInit();
+            this.grbPermissions_User.ResumeLayout(false);
+            this.grbPermissions_User.PerformLayout();
+            this.grbUserLogo_User.ResumeLayout(false);
+            this.grbUserLogo_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
+            this.groupBox6_Analyst.ResumeLayout(false);
+            this.groupBox6_Analyst.PerformLayout();
+            this.groupBox3_Analyst.ResumeLayout(false);
+            this.groupBox3_Analyst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmitReportSubmitIncidentReportProfile_Analyst)).EndInit();
+            this.groupBox4_Analyst.ResumeLayout(false);
+            this.groupBox4_Analyst.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox grbLogo_User;
+        private System.Windows.Forms.PictureBox picCyberTrackLogo_User;
+        private System.Windows.Forms.Label lblIncidentManagementSystem_User;
+        private System.Windows.Forms.Label lblCyberTrack_User;
+        private System.Windows.Forms.GroupBox grbPermissions_User;
+        private System.Windows.Forms.TextBox txtDelete_User;
+        private System.Windows.Forms.TextBox txtUpdate_User;
+        private System.Windows.Forms.TextBox txtCreate_User;
+        private System.Windows.Forms.Label lblDelete_User;
+        private System.Windows.Forms.Label lblUpdate_User;
+        private System.Windows.Forms.Label lblCreate_User;
+        private System.Windows.Forms.Label lblPermissions_User;
+        private System.Windows.Forms.GroupBox grbUserLogo_User;
+        private System.Windows.Forms.PictureBox picUserPhoto_User;
+        private System.Windows.Forms.Label lblUserRole_User;
+        private System.Windows.Forms.Label lblUserName_User;
+        private System.Windows.Forms.GroupBox groupBox6_Analyst;
+        private System.Windows.Forms.GroupBox groupBox3_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportImpactLevel_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportListAll_Analyst;
+        private System.Windows.Forms.Button btnSubmitReportCancel_Analyst;
+        private System.Windows.Forms.Button btnSubmitReportSubmitReport_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportDepartment_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportFullName_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportDepartment_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportFullName_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportReporterInfo_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportImpactLevel_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportAffectedSystems_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportAffectedSystems_Analyst;
+        private System.Windows.Forms.ComboBox cmbSubmitReportCategory_Analyst;
+        private System.Windows.Forms.ComboBox cmbSubmitReportSeverity_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportCategory_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportSeverity_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportDescription_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportDescription_Analyst;
+        private System.Windows.Forms.TextBox txtSubmitReportIncidentTitle_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportIncidentTitle_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportProvideInfo_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportIncidentDetails_Analyst;
+        private System.Windows.Forms.PictureBox picSubmitReportSubmitIncidentReportProfile_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportSubmitIncidentReport_Analyst;
+        private System.Windows.Forms.GroupBox groupBox4_Analyst;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label lblSubmitReportPreserveEvi_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportFollowUp_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportBeSpecific_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportDIA_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportActQuickly_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportReportGuide_Analyst;
+        private System.Windows.Forms.Label lblSubmitReportReportIncident_Analyst;
     }
 }

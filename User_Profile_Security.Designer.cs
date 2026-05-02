@@ -69,6 +69,10 @@
             this.label5_Analyst = new System.Windows.Forms.Label();
             this.Create_Analyst = new System.Windows.Forms.Label();
             this.Permissions_Analyst = new System.Windows.Forms.Label();
+            this.grbUserLogo_User = new System.Windows.Forms.GroupBox();
+            this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
+            this.lblUserRole_User = new System.Windows.Forms.Label();
+            this.lblUserName_User = new System.Windows.Forms.Label();
             this.PINFORMATIONgb_ANALYST.SuspendLayout();
             this.APIgb_ANALYST.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.APIdataGridView3_ANALYST)).BeginInit();
@@ -82,6 +86,8 @@
             this.groupBox7_Analyst.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).BeginInit();
             this.groupBox1_Analyst.SuspendLayout();
+            this.grbUserLogo_User.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
             this.SuspendLayout();
             // 
             // PINFORMATIONgb_ANALYST
@@ -94,11 +100,9 @@
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.PINFORMATIONlbl_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.pictureBox4_ANALYST);
             this.PINFORMATIONgb_ANALYST.Controls.Add(this.passREQgb_ANALYST);
-            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(649, 232);
-            this.PINFORMATIONgb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PINFORMATIONgb_ANALYST.Location = new System.Drawing.Point(433, 151);
             this.PINFORMATIONgb_ANALYST.Name = "PINFORMATIONgb_ANALYST";
-            this.PINFORMATIONgb_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(1245, 1192);
+            this.PINFORMATIONgb_ANALYST.Size = new System.Drawing.Size(830, 775);
             this.PINFORMATIONgb_ANALYST.TabIndex = 57;
             this.PINFORMATIONgb_ANALYST.TabStop = false;
             // 
@@ -106,11 +110,9 @@
             // 
             this.APIgb_ANALYST.Controls.Add(this.APIdataGridView3_ANALYST);
             this.APIgb_ANALYST.Controls.Add(this.APIlbl_ANALYST);
-            this.APIgb_ANALYST.Location = new System.Drawing.Point(36, 917);
-            this.APIgb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.APIgb_ANALYST.Location = new System.Drawing.Point(24, 596);
             this.APIgb_ANALYST.Name = "APIgb_ANALYST";
-            this.APIgb_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.APIgb_ANALYST.Size = new System.Drawing.Size(1176, 231);
+            this.APIgb_ANALYST.Size = new System.Drawing.Size(784, 150);
             this.APIgb_ANALYST.TabIndex = 58;
             this.APIgb_ANALYST.TabStop = false;
             // 
@@ -119,11 +121,10 @@
             this.APIdataGridView3_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.APIdataGridView3_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.GenerateTokens_Analyst});
-            this.APIdataGridView3_ANALYST.Location = new System.Drawing.Point(28, 112);
-            this.APIdataGridView3_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.APIdataGridView3_ANALYST.Location = new System.Drawing.Point(19, 73);
             this.APIdataGridView3_ANALYST.Name = "APIdataGridView3_ANALYST";
             this.APIdataGridView3_ANALYST.RowHeadersWidth = 62;
-            this.APIdataGridView3_ANALYST.Size = new System.Drawing.Size(1138, 109);
+            this.APIdataGridView3_ANALYST.Size = new System.Drawing.Size(759, 71);
             this.APIdataGridView3_ANALYST.TabIndex = 51;
             // 
             // GenerateTokens_Analyst
@@ -138,10 +139,9 @@
             // 
             this.APIlbl_ANALYST.AutoSize = true;
             this.APIlbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.APIlbl_ANALYST.Location = new System.Drawing.Point(24, 42);
-            this.APIlbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.APIlbl_ANALYST.Location = new System.Drawing.Point(16, 27);
             this.APIlbl_ANALYST.Name = "APIlbl_ANALYST";
-            this.APIlbl_ANALYST.Size = new System.Drawing.Size(277, 29);
+            this.APIlbl_ANALYST.Size = new System.Drawing.Size(178, 18);
             this.APIlbl_ANALYST.TabIndex = 50;
             this.APIlbl_ANALYST.Text = "API ACCESS TOKENS";
             // 
@@ -149,11 +149,9 @@
             // 
             this.ACTIVESESHgb_ANALYST.Controls.Add(this.ACTIVESESHdataGridView2_ANALYST);
             this.ACTIVESESHgb_ANALYST.Controls.Add(this.ACTIVESESHlbl_ANALYST);
-            this.ACTIVESESHgb_ANALYST.Location = new System.Drawing.Point(36, 663);
-            this.ACTIVESESHgb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ACTIVESESHgb_ANALYST.Location = new System.Drawing.Point(24, 431);
             this.ACTIVESESHgb_ANALYST.Name = "ACTIVESESHgb_ANALYST";
-            this.ACTIVESESHgb_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.ACTIVESESHgb_ANALYST.Size = new System.Drawing.Size(1176, 231);
+            this.ACTIVESESHgb_ANALYST.Size = new System.Drawing.Size(784, 150);
             this.ACTIVESESHgb_ANALYST.TabIndex = 57;
             this.ACTIVESESHgb_ANALYST.TabStop = false;
             // 
@@ -162,11 +160,10 @@
             this.ACTIVESESHdataGridView2_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ACTIVESESHdataGridView2_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CURRENTSESH_ANALYST});
-            this.ACTIVESESHdataGridView2_ANALYST.Location = new System.Drawing.Point(28, 112);
-            this.ACTIVESESHdataGridView2_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ACTIVESESHdataGridView2_ANALYST.Location = new System.Drawing.Point(19, 73);
             this.ACTIVESESHdataGridView2_ANALYST.Name = "ACTIVESESHdataGridView2_ANALYST";
             this.ACTIVESESHdataGridView2_ANALYST.RowHeadersWidth = 62;
-            this.ACTIVESESHdataGridView2_ANALYST.Size = new System.Drawing.Size(1138, 109);
+            this.ACTIVESESHdataGridView2_ANALYST.Size = new System.Drawing.Size(759, 71);
             this.ACTIVESESHdataGridView2_ANALYST.TabIndex = 51;
             // 
             // CURRENTSESH_ANALYST
@@ -182,10 +179,9 @@
             // 
             this.ACTIVESESHlbl_ANALYST.AutoSize = true;
             this.ACTIVESESHlbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ACTIVESESHlbl_ANALYST.Location = new System.Drawing.Point(24, 42);
-            this.ACTIVESESHlbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ACTIVESESHlbl_ANALYST.Location = new System.Drawing.Point(16, 27);
             this.ACTIVESESHlbl_ANALYST.Name = "ACTIVESESHlbl_ANALYST";
-            this.ACTIVESESHlbl_ANALYST.Size = new System.Drawing.Size(242, 29);
+            this.ACTIVESESHlbl_ANALYST.Size = new System.Drawing.Size(154, 18);
             this.ACTIVESESHlbl_ANALYST.TabIndex = 50;
             this.ACTIVESESHlbl_ANALYST.Text = "ACTIVE SESSIONS";
             // 
@@ -194,11 +190,9 @@
             this.TWOFACTORAUTHE_ANALYST.Controls.Add(this.twoFAdataGridView1_ANALYST);
             this.TWOFACTORAUTHE_ANALYST.Controls.Add(this.label2);
             this.TWOFACTORAUTHE_ANALYST.Controls.Add(this.TWOFACTORAUTHElbl_ANALYST);
-            this.TWOFACTORAUTHE_ANALYST.Location = new System.Drawing.Point(36, 423);
-            this.TWOFACTORAUTHE_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TWOFACTORAUTHE_ANALYST.Location = new System.Drawing.Point(24, 275);
             this.TWOFACTORAUTHE_ANALYST.Name = "TWOFACTORAUTHE_ANALYST";
-            this.TWOFACTORAUTHE_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.TWOFACTORAUTHE_ANALYST.Size = new System.Drawing.Size(1176, 231);
+            this.TWOFACTORAUTHE_ANALYST.Size = new System.Drawing.Size(784, 150);
             this.TWOFACTORAUTHE_ANALYST.TabIndex = 56;
             this.TWOFACTORAUTHE_ANALYST.TabStop = false;
             // 
@@ -207,11 +201,10 @@
             this.twoFAdataGridView1_ANALYST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.twoFAdataGridView1_ANALYST.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Enabled_Analyst});
-            this.twoFAdataGridView1_ANALYST.Location = new System.Drawing.Point(28, 112);
-            this.twoFAdataGridView1_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.twoFAdataGridView1_ANALYST.Location = new System.Drawing.Point(19, 73);
             this.twoFAdataGridView1_ANALYST.Name = "twoFAdataGridView1_ANALYST";
             this.twoFAdataGridView1_ANALYST.RowHeadersWidth = 62;
-            this.twoFAdataGridView1_ANALYST.Size = new System.Drawing.Size(1138, 109);
+            this.twoFAdataGridView1_ANALYST.Size = new System.Drawing.Size(759, 71);
             this.twoFAdataGridView1_ANALYST.TabIndex = 51;
             // 
             // Enabled_Analyst
@@ -224,10 +217,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 86);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(16, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(212, 20);
+            this.label2.Size = new System.Drawing.Size(143, 13);
             this.label2.TabIndex = 28;
             this.label2.Text = "Add an extra layer of security";
             // 
@@ -235,20 +227,18 @@
             // 
             this.TWOFACTORAUTHElbl_ANALYST.AutoSize = true;
             this.TWOFACTORAUTHElbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TWOFACTORAUTHElbl_ANALYST.Location = new System.Drawing.Point(24, 42);
-            this.TWOFACTORAUTHElbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TWOFACTORAUTHElbl_ANALYST.Location = new System.Drawing.Point(16, 27);
             this.TWOFACTORAUTHElbl_ANALYST.Name = "TWOFACTORAUTHElbl_ANALYST";
-            this.TWOFACTORAUTHElbl_ANALYST.Size = new System.Drawing.Size(420, 29);
+            this.TWOFACTORAUTHElbl_ANALYST.Size = new System.Drawing.Size(267, 18);
             this.TWOFACTORAUTHElbl_ANALYST.TabIndex = 50;
             this.TWOFACTORAUTHElbl_ANALYST.Text = "TWO-FACTOR AUTHENTICATION";
             // 
             // PassREQLlbl_ANALYST
             // 
             this.PassREQLlbl_ANALYST.AutoSize = true;
-            this.PassREQLlbl_ANALYST.Location = new System.Drawing.Point(51, 138);
-            this.PassREQLlbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PassREQLlbl_ANALYST.Location = new System.Drawing.Point(34, 90);
             this.PassREQLlbl_ANALYST.Name = "PassREQLlbl_ANALYST";
-            this.PassREQLlbl_ANALYST.Size = new System.Drawing.Size(304, 180);
+            this.PassREQLlbl_ANALYST.Size = new System.Drawing.Size(205, 117);
             this.PassREQLlbl_ANALYST.TabIndex = 54;
             this.PassREQLlbl_ANALYST.Text = "Password Requirements: \r\n\r\n* Minimum 12 characters\r\n\r\n* Include uppercase and low" +
     "ercase letters\r\n\r\n* Include at least one number\r\n\r\n* Include at least one specia" +
@@ -257,10 +247,9 @@
             // CHANGEPASSb_ANALYST
             // 
             this.CHANGEPASSb_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CHANGEPASSb_ANALYST.Location = new System.Drawing.Point(866, 37);
-            this.CHANGEPASSb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CHANGEPASSb_ANALYST.Location = new System.Drawing.Point(577, 24);
             this.CHANGEPASSb_ANALYST.Name = "CHANGEPASSb_ANALYST";
-            this.CHANGEPASSb_ANALYST.Size = new System.Drawing.Size(360, 57);
+            this.CHANGEPASSb_ANALYST.Size = new System.Drawing.Size(240, 37);
             this.CHANGEPASSb_ANALYST.TabIndex = 8;
             this.CHANGEPASSb_ANALYST.Text = "CHANGE PASSWORD";
             this.CHANGEPASSb_ANALYST.UseVisualStyleBackColor = true;
@@ -269,10 +258,9 @@
             // 
             this.PINFORMATIONlbl_ANALYST.AutoSize = true;
             this.PINFORMATIONlbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PINFORMATIONlbl_ANALYST.Location = new System.Drawing.Point(111, 66);
-            this.PINFORMATIONlbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PINFORMATIONlbl_ANALYST.Location = new System.Drawing.Point(74, 43);
             this.PINFORMATIONlbl_ANALYST.Name = "PINFORMATIONlbl_ANALYST";
-            this.PINFORMATIONlbl_ANALYST.Size = new System.Drawing.Size(279, 29);
+            this.PINFORMATIONlbl_ANALYST.Size = new System.Drawing.Size(177, 18);
             this.PINFORMATIONlbl_ANALYST.TabIndex = 47;
             this.PINFORMATIONlbl_ANALYST.Text = "SECURITY SETTINGS";
             // 
@@ -282,20 +270,17 @@
             this.pictureBox4_ANALYST.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4_ANALYST.ErrorImage = null;
             this.pictureBox4_ANALYST.InitialImage = null;
-            this.pictureBox4_ANALYST.Location = new System.Drawing.Point(36, 48);
-            this.pictureBox4_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4_ANALYST.Location = new System.Drawing.Point(24, 31);
             this.pictureBox4_ANALYST.Name = "pictureBox4_ANALYST";
-            this.pictureBox4_ANALYST.Size = new System.Drawing.Size(66, 65);
+            this.pictureBox4_ANALYST.Size = new System.Drawing.Size(44, 42);
             this.pictureBox4_ANALYST.TabIndex = 6;
             this.pictureBox4_ANALYST.TabStop = false;
             // 
             // passREQgb_ANALYST
             // 
-            this.passREQgb_ANALYST.Location = new System.Drawing.Point(36, 123);
-            this.passREQgb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.passREQgb_ANALYST.Location = new System.Drawing.Point(24, 80);
             this.passREQgb_ANALYST.Name = "passREQgb_ANALYST";
-            this.passREQgb_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.passREQgb_ANALYST.Size = new System.Drawing.Size(1176, 217);
+            this.passREQgb_ANALYST.Size = new System.Drawing.Size(784, 141);
             this.passREQgb_ANALYST.TabIndex = 55;
             this.passREQgb_ANALYST.TabStop = false;
             // 
@@ -303,10 +288,9 @@
             // 
             this.USERPROFILElbl_ANALYST.AutoSize = true;
             this.USERPROFILElbl_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(8, 165);
-            this.USERPROFILElbl_ANALYST.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.USERPROFILElbl_ANALYST.Location = new System.Drawing.Point(5, 107);
             this.USERPROFILElbl_ANALYST.Name = "USERPROFILElbl_ANALYST";
-            this.USERPROFILElbl_ANALYST.Size = new System.Drawing.Size(199, 29);
+            this.USERPROFILElbl_ANALYST.Size = new System.Drawing.Size(129, 18);
             this.USERPROFILElbl_ANALYST.TabIndex = 56;
             this.USERPROFILElbl_ANALYST.Text = "USER PROFILE";
             // 
@@ -319,11 +303,9 @@
             this.USERPROFILEgb_ANALYST.Controls.Add(this.INCIDENTRESPONSE_ANALYST);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.ROLE1_ANALYST);
             this.USERPROFILEgb_ANALYST.Controls.Add(this.NAME_ANALYST);
-            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(13, 232);
-            this.USERPROFILEgb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.USERPROFILEgb_ANALYST.Location = new System.Drawing.Point(9, 151);
             this.USERPROFILEgb_ANALYST.Name = "USERPROFILEgb_ANALYST";
-            this.USERPROFILEgb_ANALYST.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(592, 798);
+            this.USERPROFILEgb_ANALYST.Size = new System.Drawing.Size(395, 519);
             this.USERPROFILEgb_ANALYST.TabIndex = 55;
             this.USERPROFILEgb_ANALYST.TabStop = false;
             // 
@@ -333,20 +315,18 @@
             this.pictureBox3_ANALYST.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3_ANALYST.ErrorImage = null;
             this.pictureBox3_ANALYST.InitialImage = null;
-            this.pictureBox3_ANALYST.Location = new System.Drawing.Point(166, 94);
-            this.pictureBox3_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3_ANALYST.Location = new System.Drawing.Point(111, 61);
             this.pictureBox3_ANALYST.Name = "pictureBox3_ANALYST";
-            this.pictureBox3_ANALYST.Size = new System.Drawing.Size(260, 240);
+            this.pictureBox3_ANALYST.Size = new System.Drawing.Size(173, 156);
             this.pictureBox3_ANALYST.TabIndex = 7;
             this.pictureBox3_ANALYST.TabStop = false;
             // 
             // NOTIFICATIONb_ANALYST
             // 
             this.NOTIFICATIONb_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NOTIFICATIONb_ANALYST.Location = new System.Drawing.Point(9, 711);
-            this.NOTIFICATIONb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.NOTIFICATIONb_ANALYST.Location = new System.Drawing.Point(6, 462);
             this.NOTIFICATIONb_ANALYST.Name = "NOTIFICATIONb_ANALYST";
-            this.NOTIFICATIONb_ANALYST.Size = new System.Drawing.Size(574, 57);
+            this.NOTIFICATIONb_ANALYST.Size = new System.Drawing.Size(383, 37);
             this.NOTIFICATIONb_ANALYST.TabIndex = 6;
             this.NOTIFICATIONb_ANALYST.Text = "NOTIFICATIONS";
             this.NOTIFICATIONb_ANALYST.UseVisualStyleBackColor = true;
@@ -354,10 +334,9 @@
             // SECURITYb_ANALYST
             // 
             this.SECURITYb_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SECURITYb_ANALYST.Location = new System.Drawing.Point(9, 645);
-            this.SECURITYb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SECURITYb_ANALYST.Location = new System.Drawing.Point(6, 419);
             this.SECURITYb_ANALYST.Name = "SECURITYb_ANALYST";
-            this.SECURITYb_ANALYST.Size = new System.Drawing.Size(574, 57);
+            this.SECURITYb_ANALYST.Size = new System.Drawing.Size(383, 37);
             this.SECURITYb_ANALYST.TabIndex = 5;
             this.SECURITYb_ANALYST.Text = "SECURITY";
             this.SECURITYb_ANALYST.UseVisualStyleBackColor = true;
@@ -365,36 +344,32 @@
             // INFORMATIONb_ANALYST
             // 
             this.INFORMATIONb_ANALYST.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.INFORMATIONb_ANALYST.Location = new System.Drawing.Point(9, 578);
-            this.INFORMATIONb_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.INFORMATIONb_ANALYST.Location = new System.Drawing.Point(6, 376);
             this.INFORMATIONb_ANALYST.Name = "INFORMATIONb_ANALYST";
-            this.INFORMATIONb_ANALYST.Size = new System.Drawing.Size(574, 57);
+            this.INFORMATIONb_ANALYST.Size = new System.Drawing.Size(383, 37);
             this.INFORMATIONb_ANALYST.TabIndex = 4;
             this.INFORMATIONb_ANALYST.Text = "INFORMATION";
             this.INFORMATIONb_ANALYST.UseVisualStyleBackColor = true;
             // 
             // INCIDENTRESPONSE_ANALYST
             // 
-            this.INCIDENTRESPONSE_ANALYST.Location = new System.Drawing.Point(183, 480);
-            this.INCIDENTRESPONSE_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.INCIDENTRESPONSE_ANALYST.Location = new System.Drawing.Point(122, 312);
             this.INCIDENTRESPONSE_ANALYST.Name = "INCIDENTRESPONSE_ANALYST";
-            this.INCIDENTRESPONSE_ANALYST.Size = new System.Drawing.Size(218, 26);
+            this.INCIDENTRESPONSE_ANALYST.Size = new System.Drawing.Size(147, 20);
             this.INCIDENTRESPONSE_ANALYST.TabIndex = 3;
             // 
             // ROLE1_ANALYST
             // 
-            this.ROLE1_ANALYST.Location = new System.Drawing.Point(183, 440);
-            this.ROLE1_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ROLE1_ANALYST.Location = new System.Drawing.Point(122, 286);
             this.ROLE1_ANALYST.Name = "ROLE1_ANALYST";
-            this.ROLE1_ANALYST.Size = new System.Drawing.Size(218, 26);
+            this.ROLE1_ANALYST.Size = new System.Drawing.Size(147, 20);
             this.ROLE1_ANALYST.TabIndex = 2;
             // 
             // NAME_ANALYST
             // 
-            this.NAME_ANALYST.Location = new System.Drawing.Point(183, 400);
-            this.NAME_ANALYST.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.NAME_ANALYST.Location = new System.Drawing.Point(122, 260);
             this.NAME_ANALYST.Name = "NAME_ANALYST";
-            this.NAME_ANALYST.Size = new System.Drawing.Size(218, 26);
+            this.NAME_ANALYST.Size = new System.Drawing.Size(147, 20);
             this.NAME_ANALYST.TabIndex = 1;
             // 
             // groupBox7_Analyst
@@ -402,21 +377,18 @@
             this.groupBox7_Analyst.Controls.Add(this.pictureBox1_Analyst);
             this.groupBox7_Analyst.Controls.Add(this.IncidentManagementSystem_Analyst);
             this.groupBox7_Analyst.Controls.Add(this.CyberTrack_Analyst);
-            this.groupBox7_Analyst.Location = new System.Drawing.Point(4, 15);
-            this.groupBox7_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox7_Analyst.Location = new System.Drawing.Point(3, 10);
             this.groupBox7_Analyst.Name = "groupBox7_Analyst";
-            this.groupBox7_Analyst.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox7_Analyst.Size = new System.Drawing.Size(1131, 114);
+            this.groupBox7_Analyst.Size = new System.Drawing.Size(754, 74);
             this.groupBox7_Analyst.TabIndex = 54;
             this.groupBox7_Analyst.TabStop = false;
             // 
             // pictureBox1_Analyst
             // 
             this.pictureBox1_Analyst.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1_Analyst.Image")));
-            this.pictureBox1_Analyst.Location = new System.Drawing.Point(9, 29);
-            this.pictureBox1_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1_Analyst.Location = new System.Drawing.Point(6, 19);
             this.pictureBox1_Analyst.Name = "pictureBox1_Analyst";
-            this.pictureBox1_Analyst.Size = new System.Drawing.Size(66, 65);
+            this.pictureBox1_Analyst.Size = new System.Drawing.Size(44, 42);
             this.pictureBox1_Analyst.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1_Analyst.TabIndex = 25;
             this.pictureBox1_Analyst.TabStop = false;
@@ -424,10 +396,9 @@
             // IncidentManagementSystem_Analyst
             // 
             this.IncidentManagementSystem_Analyst.AutoSize = true;
-            this.IncidentManagementSystem_Analyst.Location = new System.Drawing.Point(90, 72);
-            this.IncidentManagementSystem_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.IncidentManagementSystem_Analyst.Location = new System.Drawing.Point(60, 47);
             this.IncidentManagementSystem_Analyst.Name = "IncidentManagementSystem_Analyst";
-            this.IncidentManagementSystem_Analyst.Size = new System.Drawing.Size(226, 20);
+            this.IncidentManagementSystem_Analyst.Size = new System.Drawing.Size(150, 13);
             this.IncidentManagementSystem_Analyst.TabIndex = 27;
             this.IncidentManagementSystem_Analyst.Text = "Incident Management Systtem";
             // 
@@ -435,10 +406,9 @@
             // 
             this.CyberTrack_Analyst.AutoSize = true;
             this.CyberTrack_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CyberTrack_Analyst.Location = new System.Drawing.Point(86, 29);
-            this.CyberTrack_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CyberTrack_Analyst.Location = new System.Drawing.Point(57, 19);
             this.CyberTrack_Analyst.Name = "CyberTrack_Analyst";
-            this.CyberTrack_Analyst.Size = new System.Drawing.Size(186, 29);
+            this.CyberTrack_Analyst.Size = new System.Drawing.Size(119, 18);
             this.CyberTrack_Analyst.TabIndex = 26;
             this.CyberTrack_Analyst.Text = "CYBERTRACK";
             // 
@@ -451,46 +421,41 @@
             this.groupBox1_Analyst.Controls.Add(this.label5_Analyst);
             this.groupBox1_Analyst.Controls.Add(this.Create_Analyst);
             this.groupBox1_Analyst.Controls.Add(this.Permissions_Analyst);
-            this.groupBox1_Analyst.Location = new System.Drawing.Point(1144, 15);
-            this.groupBox1_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1_Analyst.Location = new System.Drawing.Point(763, 10);
             this.groupBox1_Analyst.Name = "groupBox1_Analyst";
-            this.groupBox1_Analyst.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1_Analyst.Size = new System.Drawing.Size(466, 114);
+            this.groupBox1_Analyst.Size = new System.Drawing.Size(311, 74);
             this.groupBox1_Analyst.TabIndex = 53;
             this.groupBox1_Analyst.TabStop = false;
             // 
             // textBox9_Analyst
             // 
-            this.textBox9_Analyst.Location = new System.Drawing.Point(386, 62);
-            this.textBox9_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox9_Analyst.Location = new System.Drawing.Point(257, 40);
             this.textBox9_Analyst.Multiline = true;
             this.textBox9_Analyst.Name = "textBox9_Analyst";
             this.textBox9_Analyst.ReadOnly = true;
-            this.textBox9_Analyst.Size = new System.Drawing.Size(68, 29);
+            this.textBox9_Analyst.Size = new System.Drawing.Size(47, 20);
             this.textBox9_Analyst.TabIndex = 25;
             this.textBox9_Analyst.Text = "NO";
             this.textBox9_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox8_Analyst
             // 
-            this.textBox8_Analyst.Location = new System.Drawing.Point(236, 62);
-            this.textBox8_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox8_Analyst.Location = new System.Drawing.Point(157, 40);
             this.textBox8_Analyst.Multiline = true;
             this.textBox8_Analyst.Name = "textBox8_Analyst";
             this.textBox8_Analyst.ReadOnly = true;
-            this.textBox8_Analyst.Size = new System.Drawing.Size(68, 29);
+            this.textBox8_Analyst.Size = new System.Drawing.Size(47, 20);
             this.textBox8_Analyst.TabIndex = 24;
             this.textBox8_Analyst.Text = "YES";
             this.textBox8_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox7_Analyst
             // 
-            this.textBox7_Analyst.Location = new System.Drawing.Point(76, 62);
-            this.textBox7_Analyst.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox7_Analyst.Location = new System.Drawing.Point(51, 40);
             this.textBox7_Analyst.Multiline = true;
             this.textBox7_Analyst.Name = "textBox7_Analyst";
             this.textBox7_Analyst.ReadOnly = true;
-            this.textBox7_Analyst.Size = new System.Drawing.Size(68, 29);
+            this.textBox7_Analyst.Size = new System.Drawing.Size(47, 20);
             this.textBox7_Analyst.TabIndex = 23;
             this.textBox7_Analyst.Text = "YES";
             this.textBox7_Analyst.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -498,30 +463,27 @@
             // label6_Analyst
             // 
             this.label6_Analyst.AutoSize = true;
-            this.label6_Analyst.Location = new System.Drawing.Point(315, 66);
-            this.label6_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6_Analyst.Location = new System.Drawing.Point(210, 43);
             this.label6_Analyst.Name = "label6_Analyst";
-            this.label6_Analyst.Size = new System.Drawing.Size(60, 20);
+            this.label6_Analyst.Size = new System.Drawing.Size(41, 13);
             this.label6_Analyst.TabIndex = 6;
             this.label6_Analyst.Text = "Delete:";
             // 
             // label5_Analyst
             // 
             this.label5_Analyst.AutoSize = true;
-            this.label5_Analyst.Location = new System.Drawing.Point(159, 66);
-            this.label5_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5_Analyst.Location = new System.Drawing.Point(106, 43);
             this.label5_Analyst.Name = "label5_Analyst";
-            this.label5_Analyst.Size = new System.Drawing.Size(66, 20);
+            this.label5_Analyst.Size = new System.Drawing.Size(45, 13);
             this.label5_Analyst.TabIndex = 5;
             this.label5_Analyst.Text = "Update:";
             // 
             // Create_Analyst
             // 
             this.Create_Analyst.AutoSize = true;
-            this.Create_Analyst.Location = new System.Drawing.Point(9, 66);
-            this.Create_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Create_Analyst.Location = new System.Drawing.Point(6, 43);
             this.Create_Analyst.Name = "Create_Analyst";
-            this.Create_Analyst.Size = new System.Drawing.Size(61, 20);
+            this.Create_Analyst.Size = new System.Drawing.Size(41, 13);
             this.Create_Analyst.TabIndex = 4;
             this.Create_Analyst.Text = "Create:";
             // 
@@ -529,23 +491,66 @@
             // 
             this.Permissions_Analyst.AutoSize = true;
             this.Permissions_Analyst.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Permissions_Analyst.Location = new System.Drawing.Point(9, 25);
-            this.Permissions_Analyst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Permissions_Analyst.Location = new System.Drawing.Point(6, 16);
             this.Permissions_Analyst.Name = "Permissions_Analyst";
-            this.Permissions_Analyst.Size = new System.Drawing.Size(129, 25);
+            this.Permissions_Analyst.Size = new System.Drawing.Size(92, 16);
             this.Permissions_Analyst.TabIndex = 4;
             this.Permissions_Analyst.Text = "Permissions";
             // 
+            // grbUserLogo_User
+            // 
+            this.grbUserLogo_User.Controls.Add(this.picUserPhoto_User);
+            this.grbUserLogo_User.Controls.Add(this.lblUserRole_User);
+            this.grbUserLogo_User.Controls.Add(this.lblUserName_User);
+            this.grbUserLogo_User.Location = new System.Drawing.Point(1080, 10);
+            this.grbUserLogo_User.Name = "grbUserLogo_User";
+            this.grbUserLogo_User.Size = new System.Drawing.Size(183, 74);
+            this.grbUserLogo_User.TabIndex = 90;
+            this.grbUserLogo_User.TabStop = false;
+            // 
+            // picUserPhoto_User
+            // 
+            this.picUserPhoto_User.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picUserPhoto_User.BackgroundImage")));
+            this.picUserPhoto_User.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picUserPhoto_User.ErrorImage = null;
+            this.picUserPhoto_User.InitialImage = null;
+            this.picUserPhoto_User.Location = new System.Drawing.Point(11, 19);
+            this.picUserPhoto_User.Name = "picUserPhoto_User";
+            this.picUserPhoto_User.Size = new System.Drawing.Size(44, 42);
+            this.picUserPhoto_User.TabIndex = 5;
+            this.picUserPhoto_User.TabStop = false;
+            // 
+            // lblUserRole_User
+            // 
+            this.lblUserRole_User.AutoSize = true;
+            this.lblUserRole_User.Location = new System.Drawing.Point(71, 47);
+            this.lblUserRole_User.Name = "lblUserRole_User";
+            this.lblUserRole_User.Size = new System.Drawing.Size(37, 13);
+            this.lblUserRole_User.TabIndex = 5;
+            this.lblUserRole_User.Text = "USER";
+            // 
+            // lblUserName_User
+            // 
+            this.lblUserName_User.AutoSize = true;
+            this.lblUserName_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName_User.Location = new System.Drawing.Point(71, 19);
+            this.lblUserName_User.Name = "lblUserName_User";
+            this.lblUserName_User.Size = new System.Drawing.Size(99, 16);
+            this.lblUserName_User.TabIndex = 5;
+            this.lblUserName_User.Text = "Skibidi Toilet";
+            // 
             // User_Profile_Security
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 1044);
+            this.ClientSize = new System.Drawing.Size(1284, 1061);
+            this.Controls.Add(this.grbUserLogo_User);
             this.Controls.Add(this.PINFORMATIONgb_ANALYST);
             this.Controls.Add(this.USERPROFILElbl_ANALYST);
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.groupBox7_Analyst);
             this.Controls.Add(this.groupBox1_Analyst);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "User_Profile_Security";
             this.Text = "User_Profile_Security";
             this.PINFORMATIONgb_ANALYST.ResumeLayout(false);
@@ -568,6 +573,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Analyst)).EndInit();
             this.groupBox1_Analyst.ResumeLayout(false);
             this.groupBox1_Analyst.PerformLayout();
+            this.grbUserLogo_User.ResumeLayout(false);
+            this.grbUserLogo_User.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,5 +623,9 @@
         private System.Windows.Forms.Label label5_Analyst;
         private System.Windows.Forms.Label Create_Analyst;
         private System.Windows.Forms.Label Permissions_Analyst;
+        private System.Windows.Forms.GroupBox grbUserLogo_User;
+        private System.Windows.Forms.PictureBox picUserPhoto_User;
+        private System.Windows.Forms.Label lblUserRole_User;
+        private System.Windows.Forms.Label lblUserName_User;
     }
 }
