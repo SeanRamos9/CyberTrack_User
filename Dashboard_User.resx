@@ -117,6 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>How to Report an Incident
+Click "Submit New Report" and provide detailed information about the security concern
+
+Track Your Reports
+View the status and updates of your submitted incidents in the table above
+
+Contact Security Team
+For urgent matters, contact security@cybertrack.com or ext. 5000</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="picCyberTrackLogo_User.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1262,15 +1272,5 @@
         o/6nBKgvwgjIaR6dvAbUF2EF9PwZtfsyXGAhxvgIITz0/Bm1+zIwAoa4gDUuYI0LWOMC1riANf9PoNfY
         THQV34Lx4WVVy9k+AAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>How to Report an Incident
-Click "Submit New Report" and provide detailed information about the security concern
-
-Track Your Reports
-View the status and updates of your submitted incidents in the table above
-
-Contact Security Team
-For urgent matters, contact security@cybertrack.com or ext. 5000</value>
   </data>
 </root>

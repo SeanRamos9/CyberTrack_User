@@ -82,11 +82,11 @@
     <Compile Include="MainForm_User.Designer.cs">
       <DependentUpon>MainForm_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfileUser.cs">
+    <Compile Include="AdminProfileInformation_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProfileUser.Designer.cs">
-      <DependentUpon>ProfileUser.cs</DependentUpon>
+    <Compile Include="AdminProfileInformation_User.Designer.cs">
+      <DependentUpon>AdminProfileInformation_User.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,17 +102,11 @@
     <Compile Include="SubmitReport_User.Designer.cs">
       <DependentUpon>SubmitReport_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubmittedReport_User.cs">
+    <Compile Include="AdminProfileSecurity_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubmittedReport_User.Designer.cs">
-      <DependentUpon>SubmittedReport_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User_Profile_Security.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="User_Profile_Security.Designer.cs">
-      <DependentUpon>User_Profile_Security.cs</DependentUpon>
+    <Compile Include="AdminProfileSecurity_User.Designer.cs">
+      <DependentUpon>AdminProfileSecurity_User.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AllCasesEvidence2_User.resx">
       <DependentUpon>AllCasesEvidence2_User.cs</DependentUpon>
@@ -132,8 +126,8 @@
     <EmbeddedResource Include="MainForm_User.resx">
       <DependentUpon>MainForm_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProfileUser.resx">
-      <DependentUpon>ProfileUser.cs</DependentUpon>
+    <EmbeddedResource Include="AdminProfileInformation_User.resx">
+      <DependentUpon>AdminProfileInformation_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -151,11 +145,8 @@
     <EmbeddedResource Include="SubmitReport_User.resx">
       <DependentUpon>SubmitReport_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubmittedReport_User.resx">
-      <DependentUpon>SubmittedReport_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User_Profile_Security.resx">
-      <DependentUpon>User_Profile_Security.cs</DependentUpon>
+    <EmbeddedResource Include="AdminProfileSecurity_User.resx">
+      <DependentUpon>AdminProfileSecurity_User.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

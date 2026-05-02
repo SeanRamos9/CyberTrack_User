@@ -658,8 +658,9 @@
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.PINFORMATIONgb_ANALYST);
             this.Controls.Add(this.USERPROFILElbl_ANALYST);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProfileUsercs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProfileUser";
             this.Load += new System.EventHandler(this.ProfileUsercs_Load);
             this.USERPROFILEgb_ANALYST.ResumeLayout(false);

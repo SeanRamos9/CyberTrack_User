@@ -35,6 +35,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.CASE_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SEVERITY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ASSIGNED_TO = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.SUBMITTED = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ACTION = new System.Windows.Forms.DataGridViewButtonColumn();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -46,6 +52,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -67,15 +76,6 @@
             this.picUserPhoto_User = new System.Windows.Forms.PictureBox();
             this.lblUserRole_User = new System.Windows.Forms.Label();
             this.lblUserName_User = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.CASE_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SEVERITY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ASSIGNED_TO = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.SUBMITTED = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ACTION = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -84,6 +84,7 @@
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.grbLogo_User.SuspendLayout();
@@ -91,7 +92,6 @@
             this.grbPermissions_User.SuspendLayout();
             this.grbUserLogo_User.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).BeginInit();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label14
@@ -159,6 +159,57 @@
             this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.Size = new System.Drawing.Size(1176, 155);
             this.dataGridView2.TabIndex = 71;
+            // 
+            // CASE_ID
+            // 
+            this.CASE_ID.HeaderText = "CASE ID";
+            this.CASE_ID.MinimumWidth = 8;
+            this.CASE_ID.Name = "CASE_ID";
+            this.CASE_ID.ReadOnly = true;
+            this.CASE_ID.Width = 182;
+            // 
+            // Title
+            // 
+            this.Title.HeaderText = "TITLE";
+            this.Title.MinimumWidth = 8;
+            this.Title.Name = "Title";
+            this.Title.ReadOnly = true;
+            this.Title.Width = 200;
+            // 
+            // SEVERITY
+            // 
+            this.SEVERITY.HeaderText = "SEVERITY";
+            this.SEVERITY.MinimumWidth = 8;
+            this.SEVERITY.Name = "SEVERITY";
+            this.SEVERITY.ReadOnly = true;
+            this.SEVERITY.Width = 182;
+            // 
+            // ASSIGNED_TO
+            // 
+            this.ASSIGNED_TO.HeaderText = "ASSIGNED TO";
+            this.ASSIGNED_TO.MinimumWidth = 8;
+            this.ASSIGNED_TO.Name = "ASSIGNED_TO";
+            this.ASSIGNED_TO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ASSIGNED_TO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ASSIGNED_TO.Width = 182;
+            // 
+            // SUBMITTED
+            // 
+            this.SUBMITTED.HeaderText = "SUBMITTED";
+            this.SUBMITTED.MinimumWidth = 8;
+            this.SUBMITTED.Name = "SUBMITTED";
+            this.SUBMITTED.ReadOnly = true;
+            this.SUBMITTED.Width = 183;
+            // 
+            // ACTION
+            // 
+            this.ACTION.HeaderText = "ACTION";
+            this.ACTION.MinimumWidth = 8;
+            this.ACTION.Name = "ACTION";
+            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ACTION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ACTION.Text = "MANAGE";
+            this.ACTION.Width = 182;
             // 
             // pictureBox5
             // 
@@ -271,6 +322,37 @@
             this.groupBox1.Size = new System.Drawing.Size(1260, 963);
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(22, 620);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1225, 325);
+            this.groupBox2.TabIndex = 35;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(35, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 17);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "NEED HELP?";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(701, 160);
+            this.label1.TabIndex = 0;
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // label10
             // 
@@ -491,88 +573,6 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(22, 620);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1225, 325);
-            this.groupBox2.TabIndex = 35;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(701, 160);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 17);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "NEED HELP?";
-            // 
-            // CASE_ID
-            // 
-            this.CASE_ID.HeaderText = "CASE ID";
-            this.CASE_ID.MinimumWidth = 8;
-            this.CASE_ID.Name = "CASE_ID";
-            this.CASE_ID.ReadOnly = true;
-            this.CASE_ID.Width = 182;
-            // 
-            // Title
-            // 
-            this.Title.HeaderText = "TITLE";
-            this.Title.MinimumWidth = 8;
-            this.Title.Name = "Title";
-            this.Title.ReadOnly = true;
-            this.Title.Width = 200;
-            // 
-            // SEVERITY
-            // 
-            this.SEVERITY.HeaderText = "SEVERITY";
-            this.SEVERITY.MinimumWidth = 8;
-            this.SEVERITY.Name = "SEVERITY";
-            this.SEVERITY.ReadOnly = true;
-            this.SEVERITY.Width = 182;
-            // 
-            // ASSIGNED_TO
-            // 
-            this.ASSIGNED_TO.HeaderText = "ASSIGNED TO";
-            this.ASSIGNED_TO.MinimumWidth = 8;
-            this.ASSIGNED_TO.Name = "ASSIGNED_TO";
-            this.ASSIGNED_TO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ASSIGNED_TO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ASSIGNED_TO.Width = 182;
-            // 
-            // SUBMITTED
-            // 
-            this.SUBMITTED.HeaderText = "SUBMITTED";
-            this.SUBMITTED.MinimumWidth = 8;
-            this.SUBMITTED.Name = "SUBMITTED";
-            this.SUBMITTED.ReadOnly = true;
-            this.SUBMITTED.Width = 183;
-            // 
-            // ACTION
-            // 
-            this.ACTION.HeaderText = "ACTION";
-            this.ACTION.MinimumWidth = 8;
-            this.ACTION.Name = "ACTION";
-            this.ACTION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ACTION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ACTION.Text = "MANAGE";
-            this.ACTION.Width = 182;
-            // 
             // Dashboard_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -584,6 +584,7 @@
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dashboard_User";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox8.ResumeLayout(false);
@@ -598,6 +599,8 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -609,8 +612,6 @@
             this.grbUserLogo_User.ResumeLayout(false);
             this.grbUserLogo_User.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserPhoto_User)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }

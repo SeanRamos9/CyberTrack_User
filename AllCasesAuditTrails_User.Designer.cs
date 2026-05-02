@@ -642,7 +642,7 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
-            // AuditTrails_User
+            // AllCasesAuditTrails_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -651,8 +651,9 @@
             this.Controls.Add(this.grbPermissions_User);
             this.Controls.Add(this.grbUserLogo_User);
             this.Controls.Add(this.SEWMA_ANALYST);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "AuditTrails_User";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "AllCasesAuditTrails_User";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AuditTrails_User";
             this.SEWMA_ANALYST.ResumeLayout(false);
             this.SEWMA_ANALYST.PerformLayout();

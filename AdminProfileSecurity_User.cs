@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CyberTrack_User
 {
-    public partial class User_Profile_Security : Form
+    public partial class AdminProfileSecurity_User : Form
     {
-        public User_Profile_Security()
+        public AdminProfileSecurity_User()
         {
             InitializeComponent();
         }

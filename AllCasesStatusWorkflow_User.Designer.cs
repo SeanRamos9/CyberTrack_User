@@ -685,7 +685,7 @@
             this.btnAllCasesBackToCases_Analyst.Text = "Back To Cases";
             this.btnAllCasesBackToCases_Analyst.UseVisualStyleBackColor = true;
             // 
-            // StatusWorkflow_User
+            // AllCasesStatusWorkflow_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -694,8 +694,9 @@
             this.Controls.Add(this.grbLogo_User);
             this.Controls.Add(this.grbPermissions_User);
             this.Controls.Add(this.grbUserLogo_User);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "StatusWorkflow_User";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "AllCasesStatusWorkflow_User";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StatusWorkflow_User";
             this.Load += new System.EventHandler(this.StatusWorkflow_User_Load);
             this.grbLogo_User.ResumeLayout(false);

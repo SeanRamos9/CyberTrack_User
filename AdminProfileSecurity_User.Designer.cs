@@ -1,6 +1,6 @@
 ﻿namespace CyberTrack_User
 {
-    partial class User_Profile_Security
+    partial class AdminProfileSecurity_User
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(User_Profile_Security));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminProfileSecurity_User));
             this.PINFORMATIONgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.APIgb_ANALYST = new System.Windows.Forms.GroupBox();
             this.APIdataGridView3_ANALYST = new System.Windows.Forms.DataGridView();
@@ -539,7 +539,7 @@
             this.lblUserName_User.TabIndex = 5;
             this.lblUserName_User.Text = "Skibidi Toilet";
             // 
-            // User_Profile_Security
+            // AdminProfileSecurity_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -550,8 +550,9 @@
             this.Controls.Add(this.USERPROFILEgb_ANALYST);
             this.Controls.Add(this.groupBox7_Analyst);
             this.Controls.Add(this.groupBox1_Analyst);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "User_Profile_Security";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "AdminProfileSecurity_User";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User_Profile_Security";
             this.PINFORMATIONgb_ANALYST.ResumeLayout(false);
             this.PINFORMATIONgb_ANALYST.PerformLayout();
